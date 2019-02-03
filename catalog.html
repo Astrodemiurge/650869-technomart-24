@@ -48,7 +48,62 @@
       <h2>ПЕРФОРАТОРЫ</h2>
       <section class="filters">
         <h2>Фильтр товаров</h2>
-        <!--form-->
+        <p>
+          <form class="search-site" method="get" action="https://echo.htmlacademy.ru">
+            <label for="filter-name">ФИЛЬТР:</label>
+            <input id="filter-name" type="text" name="search-name">
+          </form>
+        </p>
+        <p>
+          <b>СОРТИРОВКА:</b>
+          <b>ПО ЦЕНЕ</b>
+          <b>ПО ТИПУ</b>
+          <b>ПО ФУНКЦИОНАЛУ</b>
+        </p>
+        <p>
+          <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+            <!--form filter buy-->
+            <fieldset>
+              <legend>ПРОИЗВОДИТЕЛИ:</legend>
+              <ul>
+                <li>
+                  <input id="filter-manufacturer" type="checkbox" name="BOSCH" checked> 
+                  <label for="filter-manufacturer">BOSCH</label>
+                </li>
+                <li>
+                  <input id="filter-manufacturer" type="checkbox" name="ИНТЕРСКОЛ"> 
+                  <label for="filter-manufacturer">ИНТЕРСКОЛ</label>
+                </li>
+                <li>
+                  <input id="filter-manufacturer" type="checkbox" name="MAKITA" checked> 
+                  <label for="filter-manufacturer">MAKITA</label>
+                </li>
+                <li>
+                  <input id="filter-manufacturer" type="checkbox" name="DEWALT"> 
+                  <label for="filter-manufacturer">DEWALT</label>
+                </li>
+                <li>
+                  <input id="filter-manufacturer" type="checkbox" name="HITACHI"> 
+                  <label for="filter-manufacturer">HITACHI</label>
+                </li>
+              </ul>
+            </fieldset>
+            <fieldset>
+              <legend>ПИТАНИЕ:</legend>
+              <ul>
+                <li>
+                  <input id="filter-nutrition" type="radio" name="product-group" checked>
+                  <label for="filter-nutrition">АККУМУЛЯТОРНЫЕ</label>
+                </li>
+                <li>
+                  <input id="filter-nutrition" type="radio" name="product-group">
+                  <label for="filter-nutrition">СЕТЕВЫЕ</label>
+                </li>
+              </ul>
+            </fieldset>
+            <input type="submit" value="ПОКАЗАТЬ">
+          </form>
+        </p>
       </section>
       <section class="catalog">
         <ul class="item">
