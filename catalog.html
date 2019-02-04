@@ -7,12 +7,10 @@
   <body>
     <header>    
       <span class="main-logo"><a href="index.html">ТЕХНОМАРТ</a></span>
-      <p>
         <form class="search-site" method="get" action="https://echo.htmlacademy.ru">
           <button class="search" type="submit"></button>
           <input id="search-site" type="text" name="search" placeholder="ПОИСК:">
         </form>
-      </p>
       <a href="bookmarks.html">Закладки: 0</a>
       <a href="basket.html">Корзина: 0</a>
       <a href="checkout.html">Оформить заказ</a>
@@ -69,50 +67,48 @@
           </li>
         </ul>
         <p>ФИЛЬТР:</p>
-        <p>
-          <form class="filter" method="get" action="https://echo.htmlacademy.ru">
-            <!--form filter buy-->
-            <fieldset>
-              <legend>ПРОИЗВОДИТЕЛИ:</legend>
-              <ul>
-                <li>
-                  <input id="filter-manufacturer-bosch" type="checkbox" name="BOSCH" checked> 
-                  <label for="filter-manufacturer-bosch">BOSCH</label>
-                </li>
-                <li>
-                  <input id="filter-manufacturer-interskol" type="checkbox" name="ИНТЕРСКОЛ"> 
-                  <label for="filter-manufacturer-interskol">ИНТЕРСКОЛ</label>
-                </li>
-                <li>
-                  <input id="filter-manufacturer-makita" type="checkbox" name="MAKITA" checked> 
-                  <label for="filter-manufacturer-makita">MAKITA</label>
-                </li>
-                <li>
-                  <input id="filter-manufacturer-dewalt" type="checkbox" name="DEWALT"> 
-                  <label for="filter-manufacturer-dewalt">DEWALT</label>
-                </li>
-                <li>
-                  <input id="filter-manufacturer-hitachi" type="checkbox" name="HITACHI"> 
-                  <label for="filter-manufacturer-hitachi">HITACHI</label>
-                </li>
-              </ul>
-            </fieldset>
-            <fieldset>
-              <legend>ПИТАНИЕ:</legend>
-              <ul>
-                <li>
-                  <input id="filter-nutrition-battery" type="radio" name="product-group" checked>
-                  <label for="filter-nutrition-battery">АККУМУЛЯТОРНЫЕ</label>
-                </li>
-                <li>
-                  <input id="filter-nutrition-chian" type="radio" name="product-group">
-                  <label for="filter-nutrition-chian">СЕТЕВЫЕ</label>
-                </li>
-              </ul>
-            </fieldset>
-            <input type="submit" value="ПОКАЗАТЬ">
-          </form>
-        </p>
+        <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+          <!--form filter buy-->
+          <fieldset>
+            <legend>ПРОИЗВОДИТЕЛИ:</legend>
+            <ul>
+              <li>
+                <input id="filter-manufacturer-bosch" type="checkbox" name="BOSCH" checked> 
+                <label for="filter-manufacturer-bosch">BOSCH</label>
+              </li>
+              <li>
+                <input id="filter-manufacturer-interskol" type="checkbox" name="ИНТЕРСКОЛ"> 
+                <label for="filter-manufacturer-interskol">ИНТЕРСКОЛ</label>
+              </li>
+              <li>
+                <input id="filter-manufacturer-makita" type="checkbox" name="MAKITA" checked> 
+                <label for="filter-manufacturer-makita">MAKITA</label>
+              </li>
+              <li>
+                <input id="filter-manufacturer-dewalt" type="checkbox" name="DEWALT"> 
+                <label for="filter-manufacturer-dewalt">DEWALT</label>
+              </li>
+              <li>
+                <input id="filter-manufacturer-hitachi" type="checkbox" name="HITACHI"> 
+                <label for="filter-manufacturer-hitachi">HITACHI</label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>ПИТАНИЕ:</legend>
+            <ul>
+              <li>
+                <input id="filter-nutrition-battery" type="radio" name="product-group" checked>
+                <label for="filter-nutrition-battery">АККУМУЛЯТОРНЫЕ</label>
+              </li>
+              <li>
+                <input id="filter-nutrition-chian" type="radio" name="product-group">
+                <label for="filter-nutrition-chian">СЕТЕВЫЕ</label>
+              </li>
+            </ul>
+          </fieldset>
+          <input type="submit" value="ПОКАЗАТЬ">
+        </form>
       </section>
       <section class="catalog">
         <ul class="item">
