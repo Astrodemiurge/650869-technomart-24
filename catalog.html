@@ -6,10 +6,13 @@
   </head>
   <body>
     <header>    
-      <span class="main-logo"><a href="index.html">ТЕХНОМАРТ</a></span>
+      <header class="main-header">
+        <img src="img/decorative/index-logo.svg" width="220" height="47" alt="Логотип техномарт">
         <form class="search-site" method="get" action="https://echo.htmlacademy.ru">
-          <button class="search" type="submit"></button>
-          <input id="search-site" type="text" name="search" placeholder="ПОИСК:">
+          <p>
+            <button class="search" type="submit"></button>
+            <input id="search-site" type="text" name="search" placeholder="ПОИСК:">
+          </p>
         </form>
       <a href="bookmarks.html">Закладки: 0</a>
       <a href="basket.html">Корзина: 0</a>
@@ -68,7 +71,10 @@
         </ul>
         <p>ФИЛЬТР:</p>
         <form class="filter" method="get" action="https://echo.htmlacademy.ru">
-          <!--form filter buy-->
+          <!--<fieldset>
+            <legend>ЦЕНА:</legend>
+            <form filter buy>
+          </fieldset-->
           <fieldset>
             <legend>ПРОИЗВОДИТЕЛИ:</legend>
             <ul>
@@ -107,7 +113,7 @@
               </li>
             </ul>
           </fieldset>
-          <input type="submit" value="ПОКАЗАТЬ">
+          <button type="submit">ПОКАЗАТЬ</button>
         </form>
       </section>
       <section class="catalog">
@@ -203,7 +209,7 @@
       </section>
     </main>
     <footer>
-      <span><a href="index.html">ТЕХНОМАРТ</a></span>
+      <img src="img/decorative/index-logo.svg" width="220" height="68" alt="Логотип техномарт">
       <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
         +7 (812) 555-05-55</p>
       <nav class="sub-navigation">
