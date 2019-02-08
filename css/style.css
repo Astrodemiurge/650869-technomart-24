@@ -311,6 +311,68 @@ body {
   line-height: 30px;
   color: #32425c;
 }
+.filter-navigation-crumbs {
+  background-color: #f7f3ec;
+}
+.filter-navigation-crumbs b {
+  font-family: PTSans-Regular, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+}
+.filter-navigation-crumbs li {
+  list-style: none;
+}
+.filter-navigation-active a {
+  font-family: PTSans-Regular, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #ee3643;
+
+  text-decoration: none;
+}
+.filter-navigation-inactive a  {
+  font-family: PTSans-Regular, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.3);
+}
+.main-color p {
+  font-family: PTSans-Regular, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+
+  background-color: #f7f3ec;
+}
+.filter-legend {
+  font-family: PTSans-Bold, sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 30px;
+  color: #000000;
+}
+/*.filter fieldset {
+  
+}*/
+.filter-form li {
+  list-style: none;
+}
+.filter-form label[type="text"] {
+  font-family: PTSans-Regular, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+}
+.filter-button {
+  font-family: PTSans-Regular, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+
+  border: 1px solid #e5e5e5;
+  background-color: #ffffff;
+}
 /*------------------------------------*/
 .main-footer-box-top {
   background-color: #32425c;

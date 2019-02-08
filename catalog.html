@@ -58,37 +58,37 @@
       <div class="main-box-perforator">
         <h2>ПЕРФОРАТОРЫ</h2>
       </div>
-      <section class="filters">
+      <section class="main-filters">
         <h2>Фильтр товаров</h2>
-        <ul>
+        <ul class="filter-navigation-crumbs">
           <li>
             <b>СОРТИРОВКА:</b>
           </li>
-          <li>
+          <li class="filter-navigation-active">
             <a href="#">ПО ЦЕНЕ</a>
           </li>
-          <li>
+          <li class="filter-navigation-inactive">
             <a href="#">ПО ТИПУ</a>
           </li>
-          <li>
+          <li class="filter-navigation-inactive">
             <a href="#">ПО ФУНКЦИОНАЛУ</a>
           </li>
-          <li>
+          <li class="filter-navigation-active">
             <a href="#"></a>
           </li>
-          <li>
+          <li class="filter-navigation-inactive">
             <a href="#"></a>
           </li>
         </ul>
         <p>ФИЛЬТР:</p>
         <form class="filter" method="get" action="https://echo.htmlacademy.ru">
-          <!--<fieldset>
-            <legend>ЦЕНА:</legend>
-            <form filter buy>
-          </fieldset-->
-          <fieldset>
-            <legend>ПРОИЗВОДИТЕЛИ:</legend>
-            <ul>
+          <fieldset class="fieldset-buy">
+            <legend class="filter-legend">ЦЕНА:</legend>
+            <!--form filter buy>-->
+          </fieldset>
+          <fieldset class="fieldset-manufacturer">
+            <legend class="filter-legend">ПРОИЗВОДИТЕЛИ:</legend>
+            <ul class="filter-form">
               <li>
                 <input id="filter-manufacturer-bosch" type="checkbox" name="BOSCH" checked> 
                 <label for="filter-manufacturer-bosch">BOSCH</label>
@@ -111,9 +111,9 @@
               </li>
             </ul>
           </fieldset>
-          <fieldset>
-            <legend>ПИТАНИЕ:</legend>
-            <ul>
+          <fieldset class="fieldset-nutrition">
+            <legend class="filter-legend">ПИТАНИЕ:</legend>
+            <ul class="filter-form">
               <li>
                 <input id="filter-nutrition-battery" type="radio" name="product-group" checked>
                 <label for="filter-nutrition-battery">АККУМУЛЯТОРНЫЕ</label>
@@ -124,7 +124,7 @@
               </li>
             </ul>
           </fieldset>
-          <button type="submit">ПОКАЗАТЬ</button>
+          <button class="filter-button" type="submit">ПОКАЗАТЬ</button>
         </form>
       </section>
       <section class="catalog">
