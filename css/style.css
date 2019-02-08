@@ -225,3 +225,26 @@ body {
 .service li {
   list-style: none;
 }
+.headline-company {
+  font-family: Cuprum-Regular, sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  color: #000000;
+}
+.paragraph-company {
+  font-family: PTSans-Regular, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+}
+.about-company li {
+  font-family: Cuprum-Regular, sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+
+  list-style: none;
+}
+.contacts a:nth-child(3) {
+  text-decoration: none;
+}
