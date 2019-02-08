@@ -45,3 +45,11 @@ body {
 .header-box-bottom {
   background-color: #f4f7f9;
 }
+.header-number {
+  font-family: Cuprum-Regular, sans-serif;
+  font-size: 21px;
+  line-height: 21px;
+  color: #ee3643;
+  
+  border: 2px solid #ffffff;
+}
