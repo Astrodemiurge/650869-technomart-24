@@ -290,6 +290,19 @@ body {
 .company-letter-box-footer {
   background-color: #f4f4f4;
 }
+/*Стили основного содержимого каталога*/
+.catalog-navigation-crumbs li {
+  list-style: none;
+}
+.catalog-navigation-crumbs a {
+  font-family: PTSans-Regular, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+
+  text-decoration: none;
+}
+/*------------------------------------*/
 .main-footer-box-top {
   background-color: #32425c;
 }
