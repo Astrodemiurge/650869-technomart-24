@@ -53,3 +53,9 @@ body {
   
   border: 2px solid #ffffff;
 }
+.header-address {
+  font-family: Cuprum-Regular, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #32425c;
+}
