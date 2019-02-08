@@ -13,3 +13,17 @@ body {
 .main-logo {
   background-color: #ee3643;
 }
+.search-site input[placeholder] {
+  font-family: Cuprum-Regular, sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+
+  background-color: #293449;
+}
+.search-site input[type="text"] {
+  font-family: Cuprum-Regular, sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  color: #000000;
+}
