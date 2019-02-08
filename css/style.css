@@ -86,7 +86,7 @@ body {
 .promo-block li {
   list-style: none;
 }
-..promo-block h3 {
+.promo-block h3 {
   font-family: Cuprum-bold, sans-serif;
   font-weight: bold;
   font-size: 24px;
@@ -113,4 +113,22 @@ body {
   font-size: 18px;
   line-height: 24px;
   color: #ffffff;
+}
+.promo-block li:nth-child(1) {
+  background-color: #ffbf47;
+}
+.promo-block li:nth-child(2) {
+  background-color: #3bbce3;
+}
+.promo-block li:nth-child(3) {
+  background-color: #dc91d8;
+}
+.promo-block li:nth-child(4) {
+  background-color: #8ed78f;
+}
+.promo-block li:nth-child(5) {
+  background-color: #ffc047;
+}
+.promo-block li:nth-child(6) {
+  background-color: #778899;
 }
