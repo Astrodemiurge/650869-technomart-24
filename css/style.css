@@ -134,6 +134,11 @@ body {
 .promo-block li:nth-child(6) {
   background-color: #778899;
 }
-.promo-block-button {
+.main-container-button {
+  font-family: Cuprum-Regular, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+
   background-color: #ee3643;
 }
