@@ -193,3 +193,11 @@ body {
   line-height: 30px;
   color: #32425c;
 }
+.popular-brand li {
+  list-style: none;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+}
+.popular-brand a {
+  text-decoration: none;
+}
