@@ -201,3 +201,27 @@ body {
 .popular-brand a {
   text-decoration: none;
 }
+.service-box {
+  background-color: #f4f7f9;
+}
+.service h3 {
+  font-family: Cuprum-Regular, sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  color: #000000;
+}
+.service h3:nth-child(5) {
+  font-family: Cuprum-Regular, sans-serif;
+  font-size: 36px;
+  line-height: 36px;
+  color: #32425c;
+}
+.service p {
+  font-family: PTSans-Regular, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+}
+.service li {
+  list-style: none;
+}
