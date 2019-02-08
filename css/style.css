@@ -83,6 +83,27 @@ body {
   
   text-decoration: none;
 }
+/*Стили шапки каталога*/
+.catalog-basket {
+  background-color: #ee3643;
+}
+.catalog-username {
+  font-family: Cuprum-Regular, sans-serif;
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+
+  background-color: #ffffff;
+}
+.catalog-personal-link a {
+  font-family: Cuprum-Regular, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  color: #32425c;
+
+  text-decoration: none;
+}
+/*--------------------*/
 .promo-block li {
   list-style: none;
 }
@@ -154,20 +175,20 @@ body {
   line-height: 30px;
   color: #32425c;
 }
-.popular-item-column li {
+.cart-item li {
   list-style: none;
 }
-.popular-item-column img {
+.cart-item img {
   background-color: #ffffff;
 }
-.popular-item-column h3 {
+.cart-item h3 {
   font-family: Cuprum-bold, sans-serif;
   font-weight: bold;
   font-size: 18px;
   line-height: 20px;
   color: #000000;
 }
-.popular-item-column p {
+.cart-item p {
   font-family: Cuprum-bold, sans-serif;
   font-weight: bold;
   font-size: 17px;
@@ -175,7 +196,7 @@ body {
   color: #a9a9a9;
   text-decoration: line-through;
 }
-.popular-item-column a {
+.cart-item a {
   font-family: Cuprum-bold, sans-serif;
   font-weight: bold;
   font-size: 17px;
