@@ -7,3 +7,9 @@ body {
   line-height: 18px;
   color: #000000;
 }
+.box-header-top {
+  background-color: #293449;
+}
+.main-logo {
+  background-color: #ee3643;
+}
