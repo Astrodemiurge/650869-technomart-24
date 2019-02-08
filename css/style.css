@@ -142,3 +142,12 @@ body {
 
   background-color: #ee3643;
 }
+.popular-item-box-header {
+  background-color: #f9f5f0;
+}
+.popular-item-box-header h2 {
+  font-family: Cuprum-Regular, sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  color: #32425c;
+}
