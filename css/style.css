@@ -13,7 +13,7 @@ body {
 .main-logo {
   background-color: #ee3643;
 }
-.search-site input[placeholder] {
+.search-site input::placeholder {
   font-family: Cuprum-Regular, sans-serif;
   font-size: 17px;
   line-height: 18px;
@@ -247,4 +247,25 @@ body {
 }
 .contacts a:nth-child(3) {
   text-decoration: none;
+}
+.letter label {
+  font-family: Cuprum-Regular, sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  color: #000000;
+}
+.letter input[type="text"] {
+  font-family: PTSans-Regular, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+}
+.letter input::placeholder {
+  font-family: PTSans-Regular, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #a9a9a9;
+}
+.company-letter-box-footer {
+  background-color: #f4f4f4;
 }
