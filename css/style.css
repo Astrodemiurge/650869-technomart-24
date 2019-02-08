@@ -154,3 +154,33 @@ body {
   line-height: 30px;
   color: #32425c;
 }
+.popular-item-column li {
+  list-style: none;
+}
+.popular-item-column img {
+  background-color: #ffffff;
+}
+.popular-item-column h3 {
+  font-family: Cuprum-bold, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+}
+.popular-item-column p {
+  font-family: Cuprum-bold, sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 18px;
+  color: #a9a9a9;
+  text-decoration: line-through;
+}
+.popular-item-column a {
+  font-family: Cuprum-bold, sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+
+  text-decoration: none;
+}
