@@ -35,3 +35,10 @@ body {
 
   text-decoration: none;
 }
+.header-headline {
+  font-family: Cuprum-italic, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 23px;
+  color: #ee3643;
+}
