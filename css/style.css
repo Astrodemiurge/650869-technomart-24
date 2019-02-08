@@ -59,3 +59,13 @@ body {
   line-height: 24px;
   color: #32425c;
 }
+.header-button {
+  font-family: Cuprum-Regular, sans-serif;
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+  
+  background-color: #ffffff;
+  
+  text-decoration: none;
+}
