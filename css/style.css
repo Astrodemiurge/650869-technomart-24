@@ -27,3 +27,11 @@ body {
   line-height: 18px;
   color: #000000;
 }
+.header-bookmark a {
+  font-family: Cuprum-Regular, sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+
+  text-decoration: none;
+}
