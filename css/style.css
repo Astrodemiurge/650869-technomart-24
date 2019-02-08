@@ -69,3 +69,17 @@ body {
   
   text-decoration: none;
 }
+.main-navigation {
+  background-color: #32425c;
+}
+.main-navigation li {
+  list-style: none;
+}
+.main-navigation a {
+  font-family: Cuprum-Regular, sans-serif;
+  font-size: 17px;
+  line-height: 17px;
+  color: #ffffff;
+  
+  text-decoration: none;
+}
