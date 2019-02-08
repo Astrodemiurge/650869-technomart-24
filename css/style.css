@@ -269,3 +269,34 @@ body {
 .company-letter-box-footer {
   background-color: #f4f4f4;
 }
+.main-footer-box-top {
+  background-color: #32425c;
+}
+.footer-logo {
+  background-color: #ee3643;
+}
+.footer-address {
+  font-family: Cuprum-Regular, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #f3f7f9;
+}
+.sub-navigation li {
+  list-style: none;
+}
+.sub-navigation-top a {
+  font-family: Cuprum-Regular, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #f3f7f9;
+
+  text-decoration: none;
+}
+.sub-navigation-bottom a {
+  font-family: Cuprum-Regular, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffd180;
+  
+  text-decoration: none;
+}
