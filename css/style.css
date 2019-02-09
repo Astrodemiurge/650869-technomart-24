@@ -18,7 +18,7 @@ body {
   font-size: 17px;
   line-height: 18px;
   color: #ffffff;
-
+  
   background-color: #293449;
 }
 .search-site input[type="text"] {
@@ -41,6 +41,8 @@ body {
   font-size: 16px;
   line-height: 23px;
   color: #ee3643;
+
+  display: inline-block;
 }
 .header-box-bottom {
   background-color: #f4f7f9;
@@ -104,6 +106,21 @@ body {
   text-decoration: none;
 }
 /*--------------------*/
+/*Стили состояний шапки сайта*/
+.main-logo:hover {
+  background-color: #ca2c37;
+}
+.search-site:hover,
+.search-site input[type="text"]:hover {
+  background-color: #212a3a;
+}
+.header-bookmark a:not(:nth-child(3)):hover {
+  background-color: #212a3a;
+}
+.header-bookmark a:nth-child(3):hover {
+  background-color: #5fbb2d;
+}
+/*---------------------------*/
 .promo-block li {
   list-style: none;
 }
