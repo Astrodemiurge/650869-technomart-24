@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   
-  font-family: PTSans-Regular, sans-serif;
+  font-family: PTSans-Regular, Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #000000;
@@ -14,7 +14,7 @@ body {
   background-color: #ee3643;
 }
 .search-site input::placeholder {
-  font-family: Cuprum-Regular, sans-serif;
+  font-family: Cuprum-Regular, Arial, sans-serif;
   font-size: 17px;
   line-height: 18px;
   color: #ffffff;
@@ -22,13 +22,13 @@ body {
   background-color: #293449;
 }
 .search-site input[type="text"] {
-  font-family: Cuprum-Regular, sans-serif;
+  font-family: Cuprum-Regular, Arial, sans-serif;
   font-size: 17px;
   line-height: 18px;
   color: #000000;
 }
 .header-bookmark a {
-  font-family: Cuprum-Regular, sans-serif;
+  font-family: Cuprum-Regular, Arial, sans-serif;
   font-size: 17px;
   line-height: 18px;
   color: #ffffff;
@@ -36,7 +36,7 @@ body {
   text-decoration: none;
 }
 .header-headline {
-  font-family: Cuprum-italic, sans-serif;
+  font-family: Cuprum-italic, Arial, sans-serif;
   font-style: italic;
   font-size: 16px;
   line-height: 23px;
@@ -46,7 +46,7 @@ body {
   background-color: #f4f7f9;
 }
 .header-number {
-  font-family: Cuprum-Regular, sans-serif;
+  font-family: Cuprum-Regular, Arial, sans-serif;
   font-size: 21px;
   line-height: 21px;
   color: #ee3643;
@@ -54,13 +54,13 @@ body {
   border: 2px solid #ffffff;
 }
 .header-address {
-  font-family: Cuprum-Regular, sans-serif;
+  font-family: Cuprum-Regular, Arial, sans-serif;
   font-size: 14px;
   line-height: 24px;
   color: #32425c;
 }
 .header-button {
-  font-family: Cuprum-Regular, sans-serif;
+  font-family: Cuprum-Regular, Arial, sans-serif;
   font-size: 21px;
   line-height: 21px;
   color: #000000;
@@ -76,7 +76,7 @@ body {
   list-style: none;
 }
 .main-navigation a {
-  font-family: Cuprum-Regular, sans-serif;
+  font-family: Cuprum-Regular, Arial, sans-serif;
   font-size: 17px;
   line-height: 17px;
   color: #ffffff;
@@ -88,7 +88,7 @@ body {
   background-color: #ee3643;
 }
 .catalog-username {
-  font-family: Cuprum-Regular, sans-serif;
+  font-family: Cuprum-Regular, Arial, sans-serif;
   font-size: 21px;
   line-height: 21px;
   color: #000000;
@@ -96,7 +96,7 @@ body {
   background-color: #ffffff;
 }
 .catalog-personal-link a {
-  font-family: Cuprum-Regular, sans-serif;
+  font-family: Cuprum-Regular, Arial, sans-serif;
   font-size: 16px;
   line-height: 18px;
   color: #32425c;
@@ -108,14 +108,14 @@ body {
   list-style: none;
 }
 .promo-block h3 {
-  font-family: Cuprum-bold, sans-serif;
+  font-family: Cuprum-bold, Arial, sans-serif;
   font-weight: bold;
   font-size: 24px;
   line-height: 30px;
   color: #ffffff;
 }
 .promo-block a {
-  font-family: Cuprum-Regular, sans-serif;
+  font-family: Cuprum-Regular, Arial, sans-serif;
   font-size: 14px;
   line-height: 18px;
   color: #ffffff;
@@ -125,14 +125,14 @@ body {
   /*Добавить тень*/
 }
 .promo-block .promo-block-drill  {
-  font-family: Cuprum-Regular, sans-serif;
+  font-family: Cuprum-Regular, Arial, sans-serif;
   font-weight: bold;
   font-size: 36px;
   line-height: 36px;
   color: #ffffff;
 }
 .promo-block p {
-  font-family: Cuprum-Regular, sans-serif;
+  font-family: Cuprum-Regular, Arial, sans-serif;
   font-size: 18px;
   line-height: 24px;
   color: #ffffff;
@@ -156,7 +156,7 @@ body {
   background-color: #778899;
 }
 .main-container-button {
-  font-family: Cuprum-Regular, sans-serif;
+  font-family: Cuprum-Regular, Arial, sans-serif;
   font-size: 14px;
   line-height: 18px;
   color: #ffffff;
@@ -170,7 +170,7 @@ body {
   background-color: #f9f5f0;
 }
 .popular-item-box-header h2 {
-  font-family: Cuprum-Regular, sans-serif;
+  font-family: Cuprum-Regular, Arial, sans-serif;
   font-size: 30px;
   line-height: 30px;
   color: #32425c;
@@ -182,14 +182,14 @@ body {
   background-color: #ffffff;
 }
 .cart-item h3 {
-  font-family: Cuprum-bold, sans-serif;
+  font-family: Cuprum-bold, Arial, sans-serif;
   font-weight: bold;
   font-size: 18px;
   line-height: 20px;
   color: #000000;
 }
 .cart-item p {
-  font-family: Cuprum-bold, sans-serif;
+  font-family: Cuprum-bold, Arial, sans-serif;
   font-weight: bold;
   font-size: 17px;
   line-height: 18px;
@@ -197,7 +197,7 @@ body {
   text-decoration: line-through;
 }
 .cart-item a {
-  font-family: Cuprum-bold, sans-serif;
+  font-family: Cuprum-bold, Arial, sans-serif;
   font-weight: bold;
   font-size: 17px;
   line-height: 18px;
@@ -209,7 +209,7 @@ body {
   background-color: #f9f5f0;
 }
 .popular-brand-box-header h2 {
-  font-family: Cuprum-Regular, sans-serif;
+  font-family: Cuprum-Regular, Arial, sans-serif;
   font-size: 30px;
   line-height: 30px;
   color: #32425c;
@@ -226,19 +226,19 @@ body {
   background-color: #f4f7f9;
 }
 .service h3 {
-  font-family: Cuprum-Regular, sans-serif;
+  font-family: Cuprum-Regular, Arial, sans-serif;
   font-size: 30px;
   line-height: 30px;
   color: #000000;
 }
 .service h3:nth-child(5) {
-  font-family: Cuprum-Regular, sans-serif;
+  font-family: Cuprum-Regular, Arial, sans-serif;
   font-size: 36px;
   line-height: 36px;
   color: #32425c;
 }
 .service p {
-  font-family: PTSans-Regular, sans-serif;
+  font-family: PTSans-Regular, Arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
   color: #000000;
@@ -247,19 +247,19 @@ body {
   list-style: none;
 }
 .headline-company {
-  font-family: Cuprum-Regular, sans-serif;
+  font-family: Cuprum-Regular, Arial, sans-serif;
   font-size: 30px;
   line-height: 30px;
   color: #000000;
 }
 .paragraph-company {
-  font-family: PTSans-Regular, sans-serif;
+  font-family: PTSans-Regular, Arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
   color: #000000;
 }
 .about-company li {
-  font-family: Cuprum-Regular, sans-serif;
+  font-family: Cuprum-Regular, Arial, sans-serif;
   font-size: 18px;
   line-height: 20px;
   color: #000000;
@@ -270,19 +270,19 @@ body {
   text-decoration: none;
 }
 .letter label {
-  font-family: Cuprum-Regular, sans-serif;
+  font-family: Cuprum-Regular, Arial, sans-serif;
   font-size: 18px;
   line-height: 18px;
   color: #000000;
 }
 .letter input[type="text"] {
-  font-family: PTSans-Regular, sans-serif;
+  font-family: PTSans-Regular, Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #000000;
 }
 .letter input::placeholder {
-  font-family: PTSans-Regular, sans-serif;
+  font-family: PTSans-Regular, Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #a9a9a9;
@@ -295,7 +295,7 @@ body {
   list-style: none;
 }
 .catalog-navigation-crumbs a {
-  font-family: PTSans-Regular, sans-serif;
+  font-family: PTSans-Regular, Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #000000;
@@ -306,7 +306,7 @@ body {
   background-color: #f2f6f8; 
 }
 .main-box-perforator h2 {
-  font-family: Cuprum-Regular, sans-serif;
+  font-family: Cuprum-Regular, Arial, sans-serif;
   font-size: 30px;
   line-height: 30px;
   color: #32425c;
@@ -315,7 +315,7 @@ body {
   background-color: #f7f3ec;
 }
 .filter-navigation-crumbs b {
-  font-family: PTSans-Regular, sans-serif;
+  font-family: PTSans-Regular, Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #000000;
@@ -324,7 +324,7 @@ body {
   list-style: none;
 }
 .filter-navigation-active a {
-  font-family: PTSans-Regular, sans-serif;
+  font-family: PTSans-Regular, Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #ee3643;
@@ -332,13 +332,13 @@ body {
   text-decoration: none;
 }
 .filter-navigation-inactive a  {
-  font-family: PTSans-Regular, sans-serif;
+  font-family: PTSans-Regular, Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: rgba(0, 0, 0, 0.3);
 }
 .main-color p {
-  font-family: PTSans-Regular, sans-serif;
+  font-family: PTSans-Regular, Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #000000;
@@ -346,7 +346,7 @@ body {
   background-color: #f7f3ec;
 }
 .filter-legend {
-  font-family: PTSans-Bold, sans-serif;
+  font-family: PTSans-Bold, Arial, sans-serif;
   font-weight: bold;
   font-size: 17px;
   line-height: 30px;
@@ -359,13 +359,13 @@ body {
   list-style: none;
 }
 .filter-form label[type="text"] {
-  font-family: PTSans-Regular, sans-serif;
+  font-family: PTSans-Regular, Arial, sans-serif;
   font-size: 15px;
   line-height: 20px;
   color: #000000;
 }
 .filter-button {
-  font-family: PTSans-Regular, sans-serif;
+  font-family: PTSans-Regular, Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #000000;
@@ -387,13 +387,13 @@ body {
   text-decoration: none;
 }
 .page-navigation-active a {
-  font-family: PTSans-Regular, sans-serif;
+  font-family: PTSans-Regular, Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #ffffff;
 }
 .page-navigation-inactive a {
-  font-family: PTSans-Regular, sans-serif;
+  font-family: PTSans-Regular, Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #000000;
@@ -402,19 +402,19 @@ body {
   background-color: #f4f7f9;
 }
 .about-perforators h2 {
-  font-family: Cuprum-Regular, sans-serif;
+  font-family: Cuprum-Regular, Arial, sans-serif;
   font-size: 30px;
   line-height: 30px;
   color: #000000;
 }
 .about-perforators p {
-  font-family: PTSans-Regular, sans-serif;
+  font-family: PTSans-Regular, Arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
   color: #000000;
 }
 .modal-item-basket b {
-  font-family: Cuprum-Regular, sans-serif;
+  font-family: Cuprum-Regular, Arial, sans-serif;
   font-size: 30px;
   line-height: 30px;
   color: #000000;
@@ -426,7 +426,7 @@ body {
   text-decoration: none;
 }
 .modal-item-button {
-  font-family: Cuprum-Regular, sans-serif;
+  font-family: Cuprum-Regular, Arial, sans-serif;
   font-size: 14px;
   line-height: 18px;
   color: #000000;
@@ -441,7 +441,7 @@ body {
   background-color: #ee3643;
 }
 .footer-address {
-  font-family: Cuprum-Regular, sans-serif;
+  font-family: Cuprum-Regular, Arial, sans-serif;
   font-size: 18px;
   line-height: 24px;
   color: #f3f7f9;
@@ -450,7 +450,7 @@ body {
   list-style: none;
 }
 .sub-navigation-top a {
-  font-family: Cuprum-Regular, sans-serif;
+  font-family: Cuprum-Regular, Arial, sans-serif;
   font-size: 18px;
   line-height: 24px;
   color: #f3f7f9;
@@ -458,7 +458,7 @@ body {
   text-decoration: none;
 }
 .sub-navigation-bottom a {
-  font-family: Cuprum-Regular, sans-serif;
+  font-family: Cuprum-Regular, Arial, sans-serif;
   font-size: 18px;
   line-height: 24px;
   color: #ffd180;
@@ -469,7 +469,7 @@ body {
   background-color: #293449;
 }
 .footer-copyright {
-  font-family: Cuprum-Regular, sans-serif;
+  font-family: Cuprum-Regular, Arial, sans-serif;
   font-size: 16px;
   line-height: 18px;
   color: #ffffff;
@@ -484,13 +484,13 @@ body {
   text-decoration: none;
 }
 .footer-paragraph  {
-  font-family: Cuprum-Regular, sans-serif;
+  font-family: Cuprum-Regular, Arial, sans-serif;
   font-size: 16px;
   line-height: 18px;
   color: #ffffff;
 }
 .footer-link  {
-  font-family: Cuprum-Regular, sans-serif;
+  font-family: Cuprum-Regular, Arial, sans-serif;
   font-size: 16px;
   line-height: 18px;
   color: #ffd180;
