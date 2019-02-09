@@ -122,7 +122,7 @@ body {
 
   text-decoration: none;
 
-  /*Добавить тень*/
+  background-color: rgba(0, 0, 0, 0.15);
 }
 .promo-block .promo-block-drill  {
   font-family: Cuprum-Regular, Arial, sans-serif;
