@@ -122,6 +122,42 @@ body {
 }
 /*---------------------------*/
 /*Сетки шапки сайта*/
+.main-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box-header-top {
+  display: flex;
+
+  width: 1200px;
+  height: 42px;
+}
+.main-logo-link {
+  width: 220px;
+
+  margin-left: 130px;
+}
+.search-site { 
+  width: 270px;
+  height: 42px;
+}
+.header-bookmark {
+  display: flex;
+  justify-content: space-between;
+
+  width: 450px;
+  height: 42px;
+}
+.header-bookmark:nth-child(1) {
+  height: 42px;
+}
+.header-bookmark:nth-child(2) {
+  height: 42px;
+}
+.header-bookmark:nth-child(3) {
+  height: 42px;
+}
 /*-----------------*/
 .promo-block li {
   list-style: none;
