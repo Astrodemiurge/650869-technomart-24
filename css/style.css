@@ -449,6 +449,21 @@ body {
 
   margin-left: 269px;
 }
+.popular-brand-column {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  margin: 0;
+  padding: 0;
+  margin-top: 21px;
+
+  width: 940px;
+}
+.popular-brand-column li {
+  width: 220px;
+  height: 145px;
+}
 /*---------------------------*/
 /*Стили основного содержимого каталога*/
 .catalog-navigation-crumbs li {
