@@ -324,7 +324,7 @@ body {
 .popular-brand a {
   text-decoration: none;
 }
-.service-box {
+.service {
   background-color: #f4f7f9;
 }
 .service h3 {
@@ -466,6 +466,64 @@ body {
 }
 .popular-brand-column li:nth-child(n+5) {
   margin-top: 20px;
+}
+.service {
+  width: 1200px;
+  height: 522px;
+
+  margin-top: 85px;
+}
+.service-box {
+  width: 940px;
+}
+.service-box-top {
+  width: 398px;
+  height: 96px;
+
+  margin-top: 68px;
+  margin-left: 130px;
+}
+.service-box-bottom {
+  display: flex;
+
+  margin-top: 74px;
+}
+.service-column-left {
+  width: 240px;
+  height: 183px;
+
+  margin-left: 130px;
+}
+.service-column-left ul {
+  margin: 0;
+  padding: 0;
+
+  margin-top: 74px;
+}
+.service-column-right {
+  width: 275px;
+  height: 147px;
+
+  margin-top: 74px;
+  margin-left: 80px;
+}
+.service-column-right > * {
+  margin: 0;
+  padding: 0;
+}
+.about-company-box {
+  display: flex;
+  justify-content: flex-start;
+
+  width: 940px;
+}
+.about-company {
+  width: 519px;
+}
+.contacts {
+  width: 300px;
+  
+  margin-left: 120px;
 }
 /*---------------------------*/
 /*Стили основного содержимого каталога*/
