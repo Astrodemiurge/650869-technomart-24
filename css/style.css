@@ -392,6 +392,27 @@ body {
 .company-letter-box-footer {
   background-color: #f4f4f4;
 }
+/*Сетки основного содержимого*/
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 940px;
+}
+.promo-block-column {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.promo-block-column li {
+  width: 300px;
+  height: 123px;
+}
+.promo-block-column li:nth-child(6) {
+  order: -4;
+}
+/*---------------------------*/
 /*Стили основного содержимого каталога*/
 .catalog-navigation-crumbs li {
   list-style: none;
