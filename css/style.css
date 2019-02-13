@@ -733,3 +733,65 @@ body {
 
   text-decoration: none;
 }
+/*Сетки футера*/
+.main-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-logo-link {
+  width: 228px;
+  height: 68px;
+  
+  display: block;
+
+  background-color: #ee3643;
+}
+.footer-address {
+  margin-top: 32px;
+}
+.main-footer-box-top {
+  display: flex;
+
+  width: 1200px;
+}
+.main-footer-column-top {
+  margin-left: 130px; 
+}
+.main-footer-column-bottom {
+  margin-left: 68px; 
+}
+.sub-navigation {
+  display: flex;
+  flex-direction: column;
+}
+.sub-navigation li:not(:first-child) {
+  margin-left: 60px;
+}
+.sub-navigation-top {
+  display: flex;
+}
+.sub-navigation-top li {
+  margin-top: 42px;
+}
+.sub-navigation-bottom {
+  margin-left: 36px;
+  display: flex;
+}
+.sub-navigation-bottom li {
+  margin-top: 45px;
+}
+.main-footer-box-bottom {
+  width: 1200px;
+}
+.main-footer-box-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.main-footer-left-column {
+  margin-left: 130px;
+}
+.main-footer-right-column {
+  margin-right: 145px;
+}
+/*------------*/
