@@ -158,6 +158,41 @@ body {
 .header-bookmark:nth-child(3) {
   height: 42px;
 }
+.header-box-bottom {
+  width: 1200px;
+  height: 278px;
+}
+.header-middle-column {
+  display: flex;
+
+  width: 1200px;
+
+  margin-top: 46px;
+}
+.header-headline {
+  width: 196px;
+  height: 60px;
+
+  margin-left: 183px;
+}
+.header-info-column {
+  width: 270px;
+  height: 68px;
+
+  margin-left: 71px;
+}
+.header-middle-column a:nth-child(3) {
+  width: 121px;
+  height: 45px;
+
+  margin-left: 69px;
+}
+.header-middle-column a:nth-child(4) {
+  width: 150px;
+  height: 45px;
+
+  margin-left: 10px;
+}
 /*-----------------*/
 .promo-block li {
   list-style: none;
