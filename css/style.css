@@ -170,10 +170,10 @@ body {
   margin-top: 46px;
 }
 .header-headline {
-  width: 196px;
+  width: 205px;
   height: 60px;
 
-  margin-left: 183px;
+  margin-left: 178px;
 }
 .header-info-column {
   width: 270px;
@@ -192,6 +192,18 @@ body {
   height: 45px;
 
   margin-left: 10px;
+}
+.main-navigation {
+  width: 940px;
+
+  margin-left: 130px;
+  margin-top: 44px;
+}
+.main-navigation-column {
+  display: flex;
+  justify-content: space-between;
+
+  height: 60px;
 }
 /*-----------------*/
 .promo-block li {
