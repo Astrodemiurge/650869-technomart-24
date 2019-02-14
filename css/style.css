@@ -789,9 +789,25 @@ body {
   justify-content: space-between;
 }
 .main-footer-left-column {
+  width: 227px;
+
   margin-left: 130px;
+  margin-top: 40px;
+}
+.main-footer-middle-column {
+  width: 135px;
+
+  margin-top: 40px;
 }
 .main-footer-right-column {
+  display: flex;
+
+  width: 285px;
+
+  margin-top: 40px;
   margin-right: 145px;
+}
+.main-footer-feedback-right {
+  margin-left: 53px;
 }
 /*------------*/
