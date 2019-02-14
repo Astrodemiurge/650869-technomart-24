@@ -274,33 +274,39 @@
         </div>
       </div>
     </footer>
-    <section class="modal modal-map">
-        <h2>Подробная карта</h2>
+    <div class="modal-box">
+      <section class="modal modal-map">
+        <h2 hidden>Подробная карта</h2><!--Временно-->
         <a href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.323318%2C59.938535&mode=search&sll=30.323353%2C59.938438&sspn=0.004040%2C0.001490&text=большая%20конюшенная%2019&z=18.2">
         <img src="img/content/modal-map.jpg" width="940" height="446" alt="Модальная карта c адресом: улица Большая Конюшенная дом 19/8">
         </a>
         <button type="submit" aria-label="Закрыть"></button>
       </section>
       <section class="modal company-letter">
-        <h2>Письмо компании техномарт</h2>
+        <h2 hidden>Письмо компании техномарт</h2> <!--Временно-->
         <form class="letter" method="post" action="https://echo.htmlacademy.ru">
-          <p>
-            <label for="user-name">Ваше имя:</label>
-            <input id="user-name" type="text" name="name" placeholder="Имя Фамилия">
-          </p>
-          <p>
-            <label for="email">Ваш e-mail:</label>
-            <input id="email" type="email" name="email" placeholder="email@example.com">
-          </p>
-          <p>
-            <label for="letter-text">Текст письма:</label>
-            <textarea id="letter-text" name="comment" rows="10" placeholder="В свободной форме"></textarea>
-          </p>
+          <div class="company-letter-column-top">
+            <p class="column-top-form-left">
+              <label for="user-name">Ваше имя:</label>
+              <input id="user-name" type="text" name="name" placeholder="Имя Фамилия">
+            </p>
+            <p class="column-top-form-right">
+              <label for="email">Ваш e-mail:</label>
+              <input id="email" type="email" name="email" placeholder="email@example.com">
+            </p>
+          </div>
+          <div class="letter-column-middle">
+            <p class="column-middle-form">
+              <label for="letter-text">Текст письма:</label>
+              <textarea id="letter-text" name="comment" rows="2" placeholder="В свободной форме"></textarea>
+            </p>
+          </div>
           <div class="company-letter-box-footer">
             <button class="main-container-button" type="submit">ОТПРАВИТЬ</button>
           </div>
           <button type="submit" aria-label="Закрыть"></button>
         </form>
       </section>
+    </div>
   </body>
 </html>

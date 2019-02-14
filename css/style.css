@@ -811,3 +811,56 @@ body {
   margin-left: 53px;
 }
 /*------------*/
+/*Сетки модальных окон*/
+.modal-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 0;
+  padding: 0;
+
+  width: 1200px;
+}
+.modal-map {
+  width: 940px;
+}
+.company-letter {
+  width: 620px;
+}
+.letter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.company-letter-column-top {
+  display: flex;
+  justify-content: flex-end;
+
+  margin-top: 48px;
+}
+.company-letter-column-middle {
+  margin-top: 22px;
+}
+.company-letter-box-footer {
+  margin-top: 37px;
+}
+.column-top-form-left {
+  display: flex;
+  flex-direction: column;
+
+  width: 220px;
+}
+.column-top-form-right {
+  display: flex;
+  flex-direction: column;
+
+  width: 220px;
+
+  margin-left: 20px;
+}
+.column-middle-form {
+  display: flex;
+  flex-direction: column;
+}
+/*--------------------*/
