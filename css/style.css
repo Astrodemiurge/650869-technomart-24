@@ -206,6 +206,11 @@ body {
   height: 60px;
 }
 /*-----------------*/
+/*Дополнительная сетка шапки каталога*/
+.catalog-login {
+  margin-left: 51px;
+}
+/*-----------------------------------*/
 .promo-block li {
   list-style: none;
 }
