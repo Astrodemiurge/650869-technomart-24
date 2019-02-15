@@ -651,9 +651,51 @@ body {
 }
 .page-navigation-crumbs {
   width: 285px;
+  
+  margin-top: 52px;
+  margin-right: 205px;
+}
+.page-navigation-list {
+  display: flex;
+
+  padding: 0;
+
+}
+.page-navigation-list li:nth-child(1) {
+  margin-left: 10px; 
+
+  width: 38px;
+  height: 38px;
+}
+.page-navigation-list li:nth-child(2) {
+  margin-left: 10px; 
+
+  width: 38px;
+  height: 38px;
+}
+.page-navigation-list li:nth-child(3) {
+  margin-left: 10px; 
+
+  width: 38px;
+  height: 38px;
+}
+.page-navigation-list li:nth-child(4) {
+  margin-left: 10px; 
+
+  width: 140px;
+  height: 38px;
 }
 .about-perforators {
   width: 1200px;
+  min-height: 261px;
+
+  margin-top: 60px;
+}
+.about-perforators-box {
+  width: 938px;
+
+  margin-top: 67px;
+  margin-left: 130px;
 }
 /*------------------------------------*/
 /*Стили основного содержимого каталога*/
