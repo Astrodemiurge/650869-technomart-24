@@ -561,14 +561,70 @@ body {
 }
 .main-box-perforator {
   width: 940px;
+
+  margin-top: 25px;
+}
+.main-box-perforator h2 {
+  margin-top: 32px;
+  margin-left: 30px; 
 }
 .main-box-sorting {
+  display: flex;
+
   width: 940px;
+
+  margin-top: 20px;
+}
+.main-box-sorting p {
+  width: 220px;
+
+  margin-left: 18px;
+  margin-top: 14px;
+}
+.filter-navigation-crumbs {
+  display: flex;
+
+  width: 700px;
+
+  padding: 0;
+  margin-left: 20px;
+}
+.filter-navigation-crumbs li:nth-child(1) {
+  margin-left: 19px;
+}
+.filter-navigation-crumbs li:nth-child(2) {
+  margin-left: 100px;
+}
+.filter-navigation-crumbs li:nth-child(3) {
+  margin-left: 71px;
+}
+.filter-navigation-crumbs li:nth-child(4) {
+  margin-left: 65px;
+}
+.filter-navigation-crumbs li:nth-child(5) {
+  margin-left: 46px;
+}
+.filter-navigation-crumbs li:nth-child(6) {
+  margin-left: 21px;
 }
 .main-container-catalog {
   display: flex;
 
-  width: 940px
+  width: 940px;
+
+  margin-top: 21px;
+}
+.fieldset-manufacturer {
+  margin-top: 51px;
+}
+.fieldset-nutrition {
+  margin-top: 48px;
+}
+.filter-button {
+  margin-top: 75px;
+}
+.catalog-cart-item {
+  display: flex;
 }
 .page-navigation-crumbs {
   width: 285px;
