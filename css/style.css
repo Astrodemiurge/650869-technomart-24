@@ -532,7 +532,34 @@ body {
 }
 /*---------------------------*/
 /*Сетки основного содержимого каталога*/
+.main-catalog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-catalog > * {
+  background-color: rgba(9, 255, 0, 0.15)
+}
+.catalog-navigation-crumbs {
+  width: 940px;
+}
+.main-box-perforator {
+  width: 940px;
+}
+.main-box-sorting {
+  width: 940px;
+}
+.main-container-catalog {
+  display: flex;
 
+  width: 940px
+}
+.page-navigation-crumbs {
+  width: 285px;
+}
+.about-perforators {
+  width: 1200px;
+}
 /*------------------------------------*/
 /*Стили основного содержимого каталога*/
 .catalog-navigation-crumbs li {
