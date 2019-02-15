@@ -625,6 +625,29 @@ body {
 }
 .catalog-cart-item {
   display: flex;
+  flex-wrap: wrap;
+}
+.catalog-cart-item li {
+  width: 220px;
+  height: 318px;
+}
+.catalog-cart-item li:nth-child(2) {
+  margin-left: 20px;
+}
+.catalog-cart-item li:nth-child(3) {
+  margin-left: 20px;
+}
+.catalog-cart-item li:nth-child(5) {
+  margin-left: 20px;
+}
+.catalog-cart-item li:nth-child(6) {
+  margin-left: 20px;
+}
+.catalog-cart-item li:nth-child(8) {
+  margin-left: 20px;
+}
+.catalog-cart-item li:nth-child(9) {
+  margin-left: 20px;
 }
 .page-navigation-crumbs {
   width: 285px;
