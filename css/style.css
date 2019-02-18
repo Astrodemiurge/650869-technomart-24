@@ -131,36 +131,29 @@ body {
   display: flex;
 
   width: 1200px;
-  height: 42px;
 }
 .main-logo-link {
   width: 220px;
 
+  padding: 0;
+  margin: 0;
   margin-left: 130px;
+}
+.main-logo {
+  justify-content: center;
+  align-items: center;
 }
 .search-site { 
   width: 270px;
-  height: 42px;
 }
 .header-bookmark {
   display: flex;
   justify-content: space-between;
 
   width: 450px;
-  height: 42px;
-}
-.header-bookmark:nth-child(1) {
-  height: 42px;
-}
-.header-bookmark:nth-child(2) {
-  height: 42px;
-}
-.header-bookmark:nth-child(3) {
-  height: 42px;
 }
 .header-box-bottom {
   width: 1200px;
-  height: 278px;
 }
 .header-middle-column {
   display: flex;
@@ -172,25 +165,21 @@ body {
 }
 .header-headline {
   width: 205px;
-  height: 60px;
 
   margin-left: 178px;
 }
 .header-info-column {
   width: 270px;
-  height: 68px;
 
   margin-left: 71px;
 }
 .header-middle-column a:nth-child(3) {
   width: 121px;
-  height: 45px;
 
   margin-left: 69px;
 }
 .header-middle-column a:nth-child(4) {
   width: 150px;
-  height: 45px;
 
   margin-left: 10px;
 }
@@ -203,8 +192,6 @@ body {
 .main-navigation-column {
   display: flex;
   justify-content: space-between;
-
-  height: 60px;
 }
 /*-----------------*/
 /*Дополнительная сетка шапки каталога*/
@@ -450,7 +437,6 @@ body {
   justify-content: space-around;
 
   width: 940px;
-  height: 89px;
 }
 .popular-item-box-header a{
   width: 253px;
@@ -475,11 +461,9 @@ body {
   justify-content: space-around;
 
   width: 940px;
-  height: 89px;
 }
 .popular-brand-box-header a {
   width: 253px;
-  height: 38px;
 
   margin-left: 269px;
 }
@@ -503,7 +487,6 @@ body {
 }
 .service {
   width: 1200px;
-  height: 522px;
 
   margin-top: 85px;
 }
@@ -512,7 +495,6 @@ body {
 }
 .service-box-top {
   width: 398px;
-  height: 96px;
 
   margin-top: 68px;
   margin-left: 130px;
@@ -524,7 +506,6 @@ body {
 }
 .service-column-left {
   width: 240px;
-  height: 183px;
 
   margin-left: 130px;
 }
@@ -536,7 +517,6 @@ body {
 }
 .service-column-right {
   width: 275px;
-  height: 147px;
 
   margin-top: 74px;
   margin-left: 80px;
@@ -716,7 +696,6 @@ body {
 }
 .about-perforators {
   width: 1200px;
-  min-height: 261px;
 
   margin-top: 60px;
 }
@@ -1070,7 +1049,6 @@ body {
   align-items: center;
 
   width: 620px;
-  height: 282px;
 
   margin: 0 auto;
 
@@ -1079,7 +1057,6 @@ body {
   display: flex;
   flex-direction: column;
 
-  height: 170px;
 }
 .modal-text-alert {
   margin-top: 68px;
@@ -1088,19 +1065,16 @@ body {
   display: flex;
   align-items: center;
 
-  height: 112px;
   width: 620px;
 }
 .modal-item-box a {
   margin-left: 80px;
 
   width: 220px;
-  height: 38px;
 }
 .modal-item-box button {
   margin-left: 20px;
 
   width: 220px;
-  height: 38px;
 }
 /*--------------------*/
