@@ -164,6 +164,7 @@ body {
 }
 .header-middle-column {
   display: flex;
+  flex-wrap: wrap;
 
   width: 1200px;
 
@@ -208,7 +209,21 @@ body {
 /*-----------------*/
 /*Дополнительная сетка шапки каталога*/
 .catalog-login {
+  display: flex;
+  flex-direction: column;
+
+  width: 299px;
+  height: 42px;
+
   margin-left: 51px;
+}
+.catalog-personal-link {
+  display: flex;
+
+  margin-top: 10px;
+}
+.catalog-personal-link a:last-child {
+  margin-left: 10px;
 }
 /*-----------------------------------*/
 .promo-block li {
