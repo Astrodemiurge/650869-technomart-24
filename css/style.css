@@ -27,7 +27,23 @@ body {
   line-height: 18px;
   color: #000000;
 }
-.header-bookmark a {
+.header-bookmark-bookmarks a {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+
+  text-decoration: none;
+}
+.header-bookmark-basket a {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+
+  text-decoration: none;
+}
+.header-bookmark-checkout a {
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 17px;
   line-height: 18px;
@@ -53,7 +69,7 @@ body {
   line-height: 21px;
   color: #ee3643;
   
-  border: 2px solid #ffffff;
+  border: 3px solid #ffffff;
 }
 .header-address {
   font-family: "Cuprum", Arial, sans-serif;
@@ -107,19 +123,6 @@ body {
 }
 /*--------------------*/
 /*Стили состояний шапки сайта*/
-.main-logo:hover {
-  background-color: #ca2c37;
-}
-.search-site:hover,
-.search-site input[type="text"]:hover {
-  background-color: #212a3a;
-}
-.header-bookmark a:not(:nth-child(3)):hover {
-  background-color: #212a3a;
-}
-.header-bookmark a:nth-child(3):hover {
-  background-color: #5fbb2d;
-}
 /*---------------------------*/
 /*Сетки шапки сайта*/
 .main-header {
@@ -152,6 +155,15 @@ body {
 
   width: 450px;
 }
+.header-bookmark-bookmarks {
+  padding: 14px 28px 0 44px;
+}
+.header-bookmark-basket {
+  padding: 14px 28px 0 44px;
+}
+.header-bookmark-checkout {
+  padding: 14px 22px 0 20px;
+}
 .header-box-bottom {
   width: 1200px;
 }
@@ -159,29 +171,35 @@ body {
   display: flex;
   flex-wrap: wrap;
 
-  width: 1200px;
+  width: 940px;
 
   margin-top: 46px;
+  margin-left: 172px;
 }
 .header-headline {
   width: 205px;
 
-  margin-left: 178px;
+  margin: 0;
+  padding: 0;
 }
 .header-info-column {
   width: 270px;
 
   margin-left: 71px;
 }
-.header-middle-column a:nth-child(3) {
-  width: 121px;
+.header-button-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 
   margin-left: 69px;
 }
-.header-middle-column a:nth-child(4) {
-  width: 150px;
-
+.header-button-box a:nth-child(1) {
+  padding: 15px 25px 15px 48px;
+}
+.header-button-box a:nth-child(2) {
   margin-left: 10px;
+  padding: 14px 25px 15px 25px;
 }
 .main-navigation {
   width: 940px;
@@ -191,7 +209,6 @@ body {
 }
 .main-navigation-column {
   display: flex;
-  justify-content: space-between;
 }
 /*-----------------*/
 /*Дополнительная сетка шапки каталога*/
@@ -205,13 +222,74 @@ body {
 }
 .catalog-personal-link {
   display: flex;
-
+  flex-wrap: wrap;
   margin-top: 10px;
 }
 .catalog-personal-link a:last-child {
   margin-left: 10px;
 }
 /*-----------------------------------*/
+/*Декоративные стили шапки сайта*/
+.main-logo-link  {
+  display: flex;
+  justify-content: center;
+
+  padding: 13px 0; 
+
+  background-color: #ee3643;
+}
+.search {
+  width: 17px;
+  height: 17px;
+
+  background-image: url("img/background/icon-search.svg");
+}
+.header-bookmark-bookmarks {
+  position: relative;
+}
+.header-bookmark-bookmarks a::after {
+  content: "";
+
+  width: 14px;
+  height: 16px;
+
+  position: absolute;
+  left: 17px;
+
+  background-image: url("img/background/icon-bookmark.svg");
+  background-color: rgba(0, 0, 0, 0.15);
+  fill: #000000
+}
+.header-bookmark-basket {
+  position: relative;
+}
+.header-bookmark-basket a::after {
+  content: "";
+
+  width: 14px;
+  height: 16px;
+
+  position: absolute;
+  left: 17px;
+
+  background-image: url("img/background/icon-bookmark.svg");
+  background-color: rgba(0, 0, 0, 0.15);
+}
+.header-bookmark-checkout {
+  background-color: #63a63e;
+}
+.header-number {
+  margin: 0;
+  padding: 13px 52px 11px 74px;
+}
+.header-address {
+  margin: 10px 0 0 10px; 
+  padding: 0;
+}
+.main-navigation-column li {
+  padding: 22px 31px 22px 31px;
+}
+/*------------------------------*/
 .promo-block  .imitation-li {
   list-style: none;
 }
