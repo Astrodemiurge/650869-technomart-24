@@ -226,6 +226,8 @@ input[type="radio"].visually-hidden {
 }
 .main-navigation-column {
   display: flex;
+
+  margin-bottom: 50px;
 }
 /*-----------------*/
 /*Дополнительная сетка шапки каталога*/
@@ -499,6 +501,9 @@ input[type="radio"].visually-hidden {
   flex-direction: column;
   align-items: center;
 }
+.promo-block {
+  margin-top: 59px;
+}
 .promo-block-column {
   display: flex;
 
@@ -507,6 +512,9 @@ input[type="radio"].visually-hidden {
 .promo-block-column .imitation-li {
   width: 300px;
 
+  margin-top: 20px;
+}
+.imitation-li-big {
   margin-top: 20px;
 }
 .promo-block-column-left {
@@ -792,6 +800,61 @@ input[type="radio"].visually-hidden {
   margin-left: 130px;
 }
 /*------------------------------------*/
+/*Декоративные стили основного содержимого*/
+.imitation-li {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.imitation-li h3 {
+  margin: 19px 0 0 23px;
+  padding: 0;
+}
+.imitation-li a {
+  display: flex;
+  justify-content: center;
+
+  width: 135px;
+
+  margin: 15px 0 17px 25px;
+  padding: 12px 0;
+}
+.imitation-li-big {
+  position: relative;
+}
+.imitation-li-big img:nth-child(1) {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.imitation-li-big h3 {
+  position: absolute;
+  top: -13px;
+  left: 24px;
+
+  z-index: 1;
+}
+.imitation-li-big p {
+  position: absolute;
+  top: 45px;
+  left: 24px;
+
+  z-index: 1;
+}
+.imitation-li-big a {
+  position: absolute;
+  bottom: 22px;
+  left: 25px;  
+
+  z-index: 1;
+
+  padding: 14px 45px 14px 45px;
+
+  background-color: #ee3643;
+
+  border-radius: 5px;
+}
+/*----------------------------------------*/
 /*Стили основного содержимого каталога*/
 .catalog-navigation-crumbs li {
   list-style: none;
