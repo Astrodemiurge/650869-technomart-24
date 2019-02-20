@@ -370,6 +370,8 @@ input[type="radio"].visually-hidden {
 
   text-decoration: none;
   list-style: none;
+
+  border: 5px;
 }
 .popular-item-box-header {
   background-color: #f9f5f0;
@@ -535,14 +537,9 @@ input[type="radio"].visually-hidden {
 }
 .popular-item-box-header {
   display: flex;
-  justify-content: space-around;
+  align-items: center;
 
   width: 940px;
-}
-.popular-item-box-header a{
-  width: 253px;
-
-  margin-left: 373px;
 }
 .popular-item-column {
   display: flex;
@@ -853,6 +850,22 @@ input[type="radio"].visually-hidden {
   background-color: #ee3643;
 
   border-radius: 5px;
+}
+.popular-item-box-header a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 14px 55px 14px 55px;
+  margin-left: 343px;
+
+  border-radius: 5px;
+}
+.popular-item-box-header h2 {
+  margin-left: 30px;
+}
+.popular-item-column li {
+  border: 1px solid #000000;
 }
 /*----------------------------------------*/
 /*Стили основного содержимого каталога*/
