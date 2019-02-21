@@ -1218,11 +1218,9 @@ input[type="radio"].visually-hidden {
   margin-top: 42px;
 }
 .sub-navigation-bottom {
-  margin-left: 36px;
   display: flex;
-}
-.sub-navigation-bottom li {
-  margin-top: 45px;
+
+  margin-left: 36px;
 }
 .main-footer-box-bottom {
   width: 1200px;
@@ -1242,18 +1240,35 @@ input[type="radio"].visually-hidden {
 
   margin-top: 40px;
 }
+.social-button {
+  display: flex;
+}
+.social-button li {
+  background-color: #000000;
+}
 .main-footer-right-column {
   display: flex;
-
-  width: 285px;
 
   margin-top: 40px;
   margin-right: 145px;
 }
 .main-footer-feedback-right {
   margin-left: 53px;
+
+  background-color: black;
 }
 /*------------*/
+/*Стили декоративных элементов футера*/
+.footer-logo-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px 41px 20px 41px;
+
+  background-color: #ee3643;
+}
+/*-----------------------------------*/
 /*Сетки модальных окон*/
 .modal-box {
   display: flex;
