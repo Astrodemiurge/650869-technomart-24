@@ -421,6 +421,9 @@ input[type="radio"].visually-hidden {
   line-height: 30px;
   color: #32425c;
 }
+.popular-brand {
+  margin-top: 21px;
+}
 .popular-brand li {
   list-style: none;
   background-color: #ffffff;
@@ -452,6 +455,22 @@ input[type="radio"].visually-hidden {
 }
 .service li {
   list-style: none;
+}
+.service-navigation li {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.service-navigation li:first-child {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 30px;
+  color: #32425c;
+
+  background-color: #ffffff;
 }
 .headline-company {
   font-family: "Cuprum", Arial, sans-serif;
@@ -546,8 +565,8 @@ input[type="radio"].visually-hidden {
   justify-content: space-between;
 
   margin: 0;
-  padding: 0;
   margin-top: 21px;
+  padding: 0;
 }
 .popular-item-column li {
   width: 220px;
@@ -555,13 +574,9 @@ input[type="radio"].visually-hidden {
 .popular-brand-box-header {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 
   width: 940px;
-}
-.popular-brand-box-header a {
-  width: 253px;
-
-  margin-left: 269px;
 }
 .popular-brand-column {
   display: flex;
@@ -588,17 +603,17 @@ input[type="radio"].visually-hidden {
 }
 .service-box {
   width: 940px;
+
+  margin-bottom: 100px;
 }
 .service-box-top {
-  width: 398px;
+  width: 430px;
 
   margin-top: 68px;
   margin-left: 130px;
 }
 .service-box-bottom {
   display: flex;
-
-  margin-top: 74px;
 }
 .service-column-left {
   width: 240px;
@@ -612,28 +627,35 @@ input[type="radio"].visually-hidden {
   margin-top: 74px;
 }
 .service-column-right {
-  width: 275px;
+  width: 295px;
 
   margin-top: 74px;
   margin-left: 80px;
 }
-.service-column-right > * {
+.service-column-right h3 {
   margin: 0;
   padding: 0;
 }
+.service-column-right p {
+  margin: 0;
+  padding: 0;
+}
+
 .about-company-box {
   display: flex;
   justify-content: flex-start;
 
   width: 940px;
+
+  margin-top: 82px;
 }
 .about-company {
-  width: 519px;
+  width: 545px;
 }
 .contacts {
   width: 300px;
   
-  margin-left: 120px;
+  margin-left: 94px;
 }
 /*---------------------------*/
 /*Сетки основного содержимого каталога*/
@@ -864,8 +886,86 @@ input[type="radio"].visually-hidden {
 .popular-item-box-header h2 {
   margin-left: 30px;
 }
-.popular-item-column li {
-  border: 1px solid #000000;
+.popular-item-cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: stretch;
+
+  border: 1px solid #eaeaea;
+}
+.popular-item-cart h3 {
+  width: 155px;
+  text-align: center;
+
+  margin-bottom: 0; 
+}
+.popular-item-cart-buy {
+  background-color: #ee3643;
+
+  margin-bottom: 21px;
+  padding: 13px 40px 13px 36px;
+
+  border-radius: 5px;
+}
+.popular-item-cart-not {
+  margin-top: 52px;
+}
+.popular-brand-box-header a {
+  padding: 13px 70px 13px 70px;
+
+  margin-left: 269px;
+
+  border-radius: 5px;
+}
+.popular-brand-column li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.service-navigation {
+  display: flex;
+  flex-direction: column;
+}
+.service-navigation li {
+  background-color: #32425c;
+
+  padding: 20px 0 20px 23px;
+}
+.service-column-right p {
+  margin-top: 35px;
+}
+.about-company p {
+  margin: 0;
+  padding: 0;
+}
+.about-company p:nth-child(3) {
+  margin-top: 36px;
+}
+.about-company-delivery {
+  margin: 26px 0 36px 0;
+  padding: 0;
+}
+.about-company-delivery li {
+  padding: 10px 0;
+}
+.about-company a {
+  padding: 13px 40px 13px 40px;
+
+  border-radius: 5px;
+}
+.contacts p {
+  margin-bottom: 38px;
+}
+.contacts a:nth-child(3) {
+  display: block;
+
+  margin-bottom: 62px;
+}
+.contacts a:nth-child(4) {
+  padding: 13px 61px 13px 61px;
+
+  border-radius: 5px;
 }
 /*----------------------------------------*/
 /*Стили основного содержимого каталога*/
@@ -1080,6 +1180,8 @@ input[type="radio"].visually-hidden {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  margin-top: 86px;
 }
 .footer-logo-link {
   width: 228px;
