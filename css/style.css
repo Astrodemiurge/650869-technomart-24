@@ -1152,9 +1152,6 @@ input[type="radio"].visually-hidden {
   line-height: 18px;
   color: #ffffff;
 }
-.social-button {
-  background-color: #212a3a;
-}
 .social-button li {
   list-style: none;
 }
@@ -1236,15 +1233,25 @@ input[type="radio"].visually-hidden {
   margin-top: 40px;
 }
 .main-footer-middle-column {
-  width: 135px;
-
   margin-top: 40px;
 }
 .social-button {
   display: flex;
+  justify-content: space-between;
 }
 .social-button li {
-  background-color: #000000;
+  width: 42px;
+  height: 42px;
+
+  margin: 0;
+  padding: 0;
+
+  background-color: #212a3a;
+
+  border-radius: 50%;
+}
+.social-button li:not(:first-child) {
+  margin-left: 4px;
 }
 .main-footer-right-column {
   display: flex;
@@ -1254,8 +1261,6 @@ input[type="radio"].visually-hidden {
 }
 .main-footer-feedback-right {
   margin-left: 53px;
-
-  background-color: black;
 }
 /*------------*/
 /*Стили декоративных элементов футера*/
