@@ -19,11 +19,17 @@
             <input id="search-site" type="text" name="search" placeholder="ПОИСК:">
           </p>
         </form>
-        <p class="header-bookmark">
-          <a href="bookmarks.html">Закладки: 0</a>
-          <a href="basket.html">Корзина: 0</a>
-          <a href="checkout.html">Оформить заказ</a>
-        </p>
+        <div class="header-bookmark">
+          <span class="header-bookmark-bookmarks">
+            <a href="bookmarks.html">Закладки: 0</a>
+          </span>
+          <span class="header-bookmark-basket header-basket-active">
+            <a href="basket.html">Корзина: 10</a>
+          </span>
+          <span class="header-bookmark-checkout">
+            <a href="checkout.html">Оформить заказ</a>
+          </span>
+        </div>
       </div>
       <div class="header-box-bottom">
         <div class="header-middle-column">
@@ -42,8 +48,8 @@
               <a href="personal.html">Личный кабинет</a> 
             </span>    
           </p>
-          <nav class="main-navigation">
-            <ul class="main-navigation-column">
+          <nav class="main-navigation main-navigation-catalog">
+            <ul class="main-navigation-column main-navigation-column-catalog">
               <li><a href="index.html">Главная</a></li>
               <li><a href="company.html">Компания</a></li>
               <li><a href="catalog.html">Каталог</a></li>

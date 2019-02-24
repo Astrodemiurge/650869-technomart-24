@@ -179,7 +179,7 @@ input[type="radio"].visually-hidden {
   padding: 14px 28px 0 44px;
 }
 .header-bookmark-checkout {
-  padding: 14px 22px 0 20px;
+  padding: 14px 22px 0 23px;
 }
 .header-box-bottom {
   width: 1200px;
@@ -235,17 +235,13 @@ input[type="radio"].visually-hidden {
   display: flex;
   flex-direction: column;
 
-  width: 299px;
-
-  margin-left: 51px;
+  margin: 0 0 0 51px;
 }
-.catalog-personal-link {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 10px;
+.main-navigation-catalog {
+  margin-left: -40px;
 }
-.catalog-personal-link a:last-child {
-  margin-left: 10px;
+.main-navigation-column-catalog {
+  margin-bottom: 0;
 }
 /*-----------------------------------*/
 /*Декоративные стили шапки сайта*/
@@ -296,6 +292,8 @@ input[type="radio"].visually-hidden {
 }
 .header-bookmark-checkout {
   background-color: #63a63e;
+
+  margin-left: -3px;
 }
 .header-number {
   margin: 0;
@@ -309,6 +307,30 @@ input[type="radio"].visually-hidden {
   padding: 22px 31px 22px 31px;
 }
 /*------------------------------*/
+/*Декоративные стили шапки каталога*/
+.header-basket-active {
+  background-color: #ee3643;
+}
+.catalog-username {
+  padding: 14px 69px 14px 47px;
+}
+.catalog-personal-link {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  width: 210px;
+
+  margin-top: 14px;
+  margin-left: 17px;
+}
+.catalog-personal-link a {
+  text-decoration: underline;
+}
+.main-navigation-column-catalog li {
+  padding: 8px 29px 22px 31px;
+}
+/*---------------------------------*/
 .promo-block  .imitation-li {
   list-style: none;
 }
