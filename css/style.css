@@ -43,6 +43,8 @@ input[type="radio"].visually-hidden {
   font-size: 17px;
   line-height: 18px;
   color: #000000;
+
+  border: none;
 }
 .header-bookmark-bookmarks a {
   font-family: "Cuprum", Arial, sans-serif;
@@ -164,7 +166,9 @@ input[type="radio"].visually-hidden {
   align-items: center;
 }
 .search-site { 
-  width: 270px;
+  width: 221px;
+
+  padding-left: 49px;
 }
 .header-bookmark {
   display: flex;
@@ -271,9 +275,8 @@ input[type="radio"].visually-hidden {
   position: absolute;
   left: 17px;
 
-  background-image: url("img/background/icon-bookmark.svg");
+  background-image: url("../img/background/icon-bookmark.svg");
   background-color: rgba(0, 0, 0, 0.15);
-  fill: #000000
 }
 .header-bookmark-basket {
   position: relative;
@@ -281,13 +284,13 @@ input[type="radio"].visually-hidden {
 .header-bookmark-basket a::after {
   content: "";
 
-  width: 14px;
-  height: 16px;
+  width: 15px;
+  height: 15px;
 
   position: absolute;
   left: 17px;
 
-  background-image: url("img/background/icon-bookmark.svg");
+  background-image: url("../img/background/icon-cart.svg");
   background-color: rgba(0, 0, 0, 0.15);
 }
 .header-bookmark-checkout {
@@ -1380,6 +1383,10 @@ input[type="radio"].visually-hidden {
 }
 .main-footer-feedback-right {
   margin-left: 53px;
+}
+.main-footer-feedback-box {
+  display: flex;
+  flex-direction: column;
 }
 /*------------*/
 /*Стили декоративных элементов футера*/
