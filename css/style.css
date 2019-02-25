@@ -808,7 +808,7 @@ input[type="radio"].visually-hidden {
   width: 285px;
   
   margin-top: 52px;
-  margin-right: 205px;
+  margin-right: 195px;
 }
 .page-navigation-list {
   display: flex;
@@ -846,6 +846,7 @@ input[type="radio"].visually-hidden {
 
   margin-top: 67px;
   margin-left: 130px;
+  margin-bottom: 73px;
 }
 /*------------------------------------*/
 /*Декоративные стили основного содержимого*/
@@ -1221,6 +1222,12 @@ input[type="radio"].visually-hidden {
 .catalog-cart-item li:nth-child(n+4) {
   margin-top: 21px;
 }
+.page-navigation-list li {
+  padding: 15px 17px;
+
+  border-radius: 5px;
+}
+.about-perforators {}
 /*------------------------------------------------*/
 .main-footer-box-top {
   background-color: #32425c;
@@ -1289,6 +1296,9 @@ input[type="radio"].visually-hidden {
   align-items: center;
 
   margin-top: 86px;
+}
+.main-footer-catalog {
+  margin-top: 0;
 }
 .footer-logo-link {
   width: 228px;
