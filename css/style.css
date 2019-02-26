@@ -257,11 +257,22 @@ input[type="radio"].visually-hidden {
 
   background-color: #ee3643;
 }
-.search {
+.header-input-box {
+  position: relative;
+}
+.header-search-button {
+  position: absolute;
+
+  top: 0;
+  left: -38px;
+
   width: 17px;
   height: 17px;
 
-  background-image: url("img/background/icon-search.svg");
+  border: 0;
+
+  background-color: transparent;
+  opacity: 0.3;
 }
 .header-bookmark-bookmarks {
   position: relative;
@@ -276,7 +287,7 @@ input[type="radio"].visually-hidden {
   left: 17px;
 
   background-image: url("../img/background/icon-bookmark.svg");
-  background-color: rgba(0, 0, 0, 0.15);
+  opacity: 0.3;
 }
 .header-bookmark-basket {
   position: relative;
@@ -291,7 +302,7 @@ input[type="radio"].visually-hidden {
   left: 17px;
 
   background-image: url("../img/background/icon-cart.svg");
-  background-color: rgba(0, 0, 0, 0.15);
+  opacity: 0.3;
 }
 .header-bookmark-checkout {
   background-color: #63a63e;
