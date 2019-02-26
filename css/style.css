@@ -1345,6 +1345,61 @@ input[type="radio"].visually-hidden {
 }
 /*------------------------------------*/
 /*Декоративные стили основного содержимого каталога*/
+.catalog-navigation-crumbs {
+  position: relative;
+}
+.catalog-navigation-crumbs li:nth-child(1)::after {
+  content: "";
+
+  width: 14px;
+  height: 12px;
+
+  position: absolute;
+
+  top: 2px;
+  left: 0;
+  
+  background-image: url("../img/background/icon-home.svg");
+}
+.catalog-navigation-crumbs li:nth-child(2)::after {
+  content: "";
+
+  width: 8px;
+  height: 12px;
+
+  position: absolute;
+
+  top: 2px;
+  left: 29px;
+  
+  background-image: url("../img/background/icon-right-small.svg");
+}
+.catalog-navigation-crumbs li:nth-child(3)::after {
+  content: "";
+
+  width: 8px;
+  height: 12px;
+
+  position: absolute;
+
+  top: 2px;
+  left: 126px;
+  
+  background-image: url("../img/background/icon-right-small.svg");
+}
+.catalog-navigation-crumbs li:nth-child(3)::before {
+  content: "";
+
+  width: 8px;
+  height: 12px;
+
+  position: absolute;
+
+  top: 2px;
+  left: 270px;
+  
+  background-image: url("../img/background/icon-right-small.svg");
+}
 .filter-paragraph {
   background-color: #f7f3ec; 
 }
@@ -1354,6 +1409,39 @@ input[type="radio"].visually-hidden {
   margin-left: 20px;
 
   width: 700px;
+}
+.filter-navigation-active {
+  position: relative;
+}
+.filter-navigation-inactive {
+  position: relative;
+}
+.filter-navigation-active .filter-navigation-up:after {
+  content: "";
+
+  width: 11px;
+  height: 10px;
+
+  position: absolute;
+
+  top: 3px;
+  left: -15px;
+
+  background-image: url("../img/background/icon-up-dir.svg"); 
+}
+.filter-navigation-inactive .filter-navigation-down:after {
+  content: "";
+
+  width: 11px;
+  height: 10px;
+
+  position: absolute;
+
+  top: 3px;
+  left: -5px;
+
+  background-image: url("../img/background/icon-down-dir.svg"); 
+  opacity: 0.3;
 }
 .fieldset-buy {
   padding: 0 0 25px 0; 
