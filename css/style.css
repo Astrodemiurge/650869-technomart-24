@@ -365,6 +365,8 @@ input[type="radio"].visually-hidden {
 }
 .catalog-username {
   padding: 14px 69px 14px 47px;
+
+  position: relative;
 }
 .catalog-personal-link {
   display: flex;
@@ -381,6 +383,32 @@ input[type="radio"].visually-hidden {
 }
 .main-navigation-column-catalog li {
   padding: 8px 29px 22px 31px;
+}
+.catalog-username::before {
+  content: "";
+
+  width: 20px;
+  height: 18px;
+
+  position: absolute;
+  top: 15px;
+  left: 13px;
+
+  background-image: url("../img/background/icon-user.svg");
+  opacity: 0.5;
+}
+.catalog-username::after {
+  content: "";
+
+  width: 20px;
+  height: 17px;
+
+  position: absolute;
+  top: 16px;
+  right: 12px;
+
+  background-image: url("../img/background/icon-login.svg");
+  opacity: 0.5;
 }
 /*---------------------------------*/
 .promo-block  .imitation-li {
