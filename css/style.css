@@ -377,9 +377,25 @@ input[type="radio"].visually-hidden {
 
   margin-top: 14px;
   margin-left: 17px;
+
+  position: relative;
 }
 .catalog-personal-link a {
   text-decoration: underline;
+}
+.catalog-personal-link a::before {
+  content: "";
+
+  width: 4px;
+  height: 5px;
+
+  position: absolute;
+  top: 7px;
+  left: 90px;
+
+  background-color: #32425c;
+
+  border-radius: 50%;
 }
 .main-navigation-column-catalog li {
   padding: 8px 29px 22px 31px;
@@ -410,6 +426,7 @@ input[type="radio"].visually-hidden {
   background-image: url("../img/background/icon-login.svg");
   opacity: 0.5;
 }
+
 /*---------------------------------*/
 .promo-block  .imitation-li {
   list-style: none;
