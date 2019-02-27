@@ -259,7 +259,9 @@ input[type="radio"].visually-hidden {
 
   box-shadow: 0 5px 0 0 #700000; /*Не работает*/
 }
-.main-logo-link {}
+.main-link {
+  box-shadow: 0 5px 0 0 #700000;
+}
 .header-input-box {
   position: relative;
 }
