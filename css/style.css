@@ -37,6 +37,8 @@ input[type="radio"].visually-hidden {
   color: #ffffff;
   
   background-color: #293449;
+
+  border: none;
 }
 .search-site input[type="text"] {
   font-family: "Cuprum", Arial, sans-serif;
@@ -257,13 +259,28 @@ input[type="radio"].visually-hidden {
 
   background-color: #ee3643;
 
-  box-shadow: 0 5px 0 0 #700000; /*Не работает*/
+  position: relative;
+
+  box-shadow: 0 5px #b52933; /*Не работает*/
 }
-.main-link {
-  box-shadow: 0 5px 0 0 #700000;
+.main-logo-link::after {
+  content: "";
+
+  position: absolute;
+
+  padding-top: 5px;
+  
+  width: 220px;
+
+  background-color: transparent;
 }
 .header-input-box {
   position: relative;
+}
+.search-site input {
+  border: 0;
+
+  background-color: #293449;
 }
 .header-search-button {
   position: absolute;
@@ -1077,8 +1094,87 @@ input[type="radio"].visually-hidden {
 
   background-image: url("../img/background/icon-5.svg");
 }
-.imitation-li-big::before {
+.button-left-big {
+  width: 22px;
+  height: 40px;
 
+  position: absolute;
+  top: 114px;
+  left: 25px;
+
+  background-image: url("../img/background/icon-left.svg");
+  background-color: transparent;
+
+  border: 0;
+
+  outline: transparent;
+}
+.button-right-big {
+  width: 22px;
+  height: 40px;
+
+  position: absolute;
+  top: 114px;
+  right: 25px;
+
+  background-image: url("../img/background/icon-right.svg");
+  background-color: transparent;
+
+  border: 0;
+
+  outline: transparent;
+}
+.button-left-small {
+  position: absolute;
+
+  bottom: 36px;
+  left: 295px;
+
+  padding-top: 10px;
+
+  width: 10px;
+
+  background-color: #ffffff;
+
+  border-radius: 50%;
+  border: transparent;
+
+  outline: transparent;
+}
+.button-right-small {
+  position: absolute;
+
+  bottom: 36px;
+  right: 295px;
+
+  padding-top: 10px;
+
+  width: 10px;
+
+  background-color: #ffffff;
+
+  border-radius: 50%;
+  border: transparent;
+
+  outline: transparent;
+}
+.imitation-li-big::after {
+  content: "";
+
+  position: absolute;
+
+  bottom: 38px;
+  right: 298px;
+
+  padding-top: 6px;
+
+  width: 6px;
+
+  background-color: #ee3643;
+
+  border-radius: 50%;
+
+  z-index: 1;
 }
 .popular-item-box-header a {
   display: flex;
@@ -1131,8 +1227,16 @@ input[type="radio"].visually-hidden {
 
   position: relative;
 }
-.populat-item-cart-buy::after {
-  
+.popular-item-cart-buy::after {
+  content: "";
+
+  position: absolute;
+
+  right: -33px;
+  bottom: 0;
+
+  border: 22px solid #ffffff;
+  border-left-color: #ee3643;
 }
 .popular-item-cart-not {
   margin-top: 52px;
@@ -1510,6 +1614,70 @@ input[type="radio"].visually-hidden {
 .filter-form {
   padding: 0;
 }
+.filter-manufacturer {
+  visibility: hidden;
+}
+.label-filter-manufacturer {
+  position: relative;
+}
+.label-filter-manufacturer::after {
+  content: "";
+
+  position: absolute;
+
+  width: 27px;
+  height: 23px;
+
+  top: -2px;
+  left: -35px;
+
+  background-image: url("../img/background/checkbox-on.svg")
+}
+.label-filter-manufacturer::before {
+  content: "";
+
+  position: absolute;
+
+  width: 23px;
+  height: 23px;
+
+  top: -2px;
+  left: -35px;
+
+  background-image: url("../img/background/checkbox-off.svg")
+}
+.filter-nutrition {
+  visibility: hidden;
+}
+.label-fieldset-nutrition {
+  position: relative;
+}
+.label-fieldset-nutrition::after {
+  content: "";
+
+  position: absolute;
+
+  width: 25px;
+  height: 25px;
+
+  top: -4px;
+  left: -35px;
+
+  background-image: url("../img/background/radio-on.svg")
+}
+.label-fieldset-nutrition::before {
+  content: "";
+
+  position: absolute;
+
+  width: 25px;
+  height: 25px;
+
+  top: -4px;
+  left: -35px;
+
+  background-image: url("../img/background/radio-off.svg")
+}
 .filter-form li:not(:last-child) {
   margin-bottom: 14px; 
 }
@@ -1545,6 +1713,19 @@ input[type="radio"].visually-hidden {
   padding: 13px 40px 13px 36px;
 
   border-radius: 5px;
+
+  position: relative;
+}
+.catalog-item-cart-buy::after {
+  content: "";
+
+  position: absolute;
+
+  right: -33px;
+  bottom: 0;
+
+  border: 22px solid #ffffff;
+  border-left-color: #ee3643;
 }
 .catalog-item-cart-not {
   background-color: #ee3643;
@@ -1554,6 +1735,19 @@ input[type="radio"].visually-hidden {
   padding: 13px 40px 13px 36px;
 
   border-radius: 5px;
+
+  position: relative;
+}
+.catalog-item-cart-not::after {
+  content: "";
+
+  position: absolute;
+
+  right: -33px;
+  bottom: 0;
+
+  border: 22px solid #ffffff;
+  border-left-color: #ee3643;
 }
 .catalog-cart-item li:nth-child(n+4) {
   margin-top: 21px;
@@ -1771,7 +1965,7 @@ input[type="radio"].visually-hidden {
 
   background-color: #ee3643;
 
-  box-shadow: 0 5px 0 0 #8f0000; /*Изменить цвет*/
+  box-shadow: 0 5px #b52933; /*Изменить цвет*/
 }
 .social-button-link {
   position: relative;
