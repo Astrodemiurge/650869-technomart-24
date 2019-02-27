@@ -1614,9 +1614,6 @@ input[type="radio"].visually-hidden {
 .filter-form {
   padding: 0;
 }
-.filter-manufacturer {
-  visibility: hidden;
-}
 .label-filter-manufacturer {
   position: relative;
 }
@@ -1645,9 +1642,6 @@ input[type="radio"].visually-hidden {
   left: -35px;
 
   background-image: url("../img/background/checkbox-off.svg")
-}
-.filter-nutrition {
-  visibility: hidden;
 }
 .label-fieldset-nutrition {
   position: relative;
