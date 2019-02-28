@@ -881,6 +881,9 @@ input[type="radio"].visually-hidden {
 .main-filters {
   width: 220px;
 }
+.filter-form {
+  margin-left: 35px;
+}
 .fieldset-manufacturer {
   margin-top: 51px;
 }
@@ -1622,6 +1625,20 @@ input[type="radio"].visually-hidden {
 
   position: absolute;
 
+  width: 19px;
+  height: 19px;
+
+  top: -2px;
+  left: -35px;
+
+  border: 2px solid #c5c5c5;
+  border-radius: 3px;
+}
+.filter-manufacturer:checked + .label-filter-manufacturer::before {
+  content: "";
+
+  position: absolute;
+
   width: 27px;
   height: 23px;
 
@@ -1629,19 +1646,6 @@ input[type="radio"].visually-hidden {
   left: -35px;
 
   background-image: url("../img/background/checkbox-on.svg")
-}
-.label-filter-manufacturer::before {
-  content: "";
-
-  position: absolute;
-
-  width: 23px;
-  height: 23px;
-
-  top: -2px;
-  left: -35px;
-
-  background-image: url("../img/background/checkbox-off.svg")
 }
 .label-fieldset-nutrition {
   position: relative;
@@ -1651,15 +1655,16 @@ input[type="radio"].visually-hidden {
 
   position: absolute;
 
-  width: 25px;
-  height: 25px;
+  width: 19px;
+  height: 19px;
 
   top: -4px;
   left: -35px;
 
-  background-image: url("../img/background/radio-on.svg")
+  border: 3px solid #c5c5c5;
+  border-radius: 50%;
 }
-.label-fieldset-nutrition::before {
+.filter-nutrition:checked + .label-fieldset-nutrition::before {
   content: "";
 
   position: absolute;
@@ -1670,7 +1675,7 @@ input[type="radio"].visually-hidden {
   top: -4px;
   left: -35px;
 
-  background-image: url("../img/background/radio-off.svg")
+  background-image: url("../img/background/radio-off.svg");
 }
 .filter-form li:not(:last-child) {
   margin-bottom: 14px; 
