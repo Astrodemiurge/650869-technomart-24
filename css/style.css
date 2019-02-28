@@ -143,8 +143,6 @@ input[type="radio"].visually-hidden {
   text-decoration: none;
 }
 /*--------------------*/
-/*Стили состояний шапки сайта*/
-/*---------------------------*/
 /*Сетки шапки сайта*/
 .main-header {
   display: flex;
@@ -447,6 +445,8 @@ input[type="radio"].visually-hidden {
 }
 
 /*---------------------------------*/
+/*Стили активных состояний шапки сайта*/
+/*---------------------------*/
 .promo-block  .imitation-li {
   list-style: none;
 }
