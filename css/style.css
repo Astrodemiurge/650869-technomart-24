@@ -259,9 +259,9 @@ input[type="radio"].visually-hidden {
 
   position: relative;
 
-  box-shadow: 0 5px #b52933; /*Не работает*/
+  box-shadow: 0 5px #b52933; 
 }
-.main-logo-link::after {
+/*.main-logo-link::after {
   content: "";
 
   position: absolute;
@@ -271,7 +271,7 @@ input[type="radio"].visually-hidden {
   width: 220px;
 
   background-color: transparent;
-}
+}*/ /*Костыль*/
 .header-input-box {
   position: relative;
 }
@@ -443,7 +443,9 @@ input[type="radio"].visually-hidden {
   background-image: url("../img/background/icon-login.svg");
   opacity: 0.5;
 }
-
+.main-navigation-column li:hover {
+  background-color: red;
+}
 /*---------------------------------*/
 /*Стили активных состояний шапки сайта*/
 
@@ -1676,7 +1678,7 @@ input[type="radio"].visually-hidden {
   top: -4px;
   left: -35px;
 
-  background-image: url("../img/background/radio-off.svg");
+  background-image: url("../img/background/radio-on.svg");
 }
 .filter-form li:not(:last-child) {
   margin-bottom: 14px; 
