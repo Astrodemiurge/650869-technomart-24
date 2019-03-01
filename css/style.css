@@ -27,9 +27,6 @@ input[type="radio"].visually-hidden {
 .box-header-top {
   background-color: #293449;
 }
-.main-logo {
-  background-color: #ee3643;
-}
 .search-site input::placeholder {
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 17px;
@@ -162,8 +159,9 @@ input[type="radio"].visually-hidden {
   margin-left: 195px;
 }
 .main-logo {
-  justify-content: center;
-  align-items: center;
+  display: inline-block;
+
+  text-align: center;
 }
 .search-site { 
   width: 221px;
@@ -359,7 +357,7 @@ input[type="radio"].visually-hidden {
 .header-button {
   position: relative;
 }
-.header-button:first-child:after {
+.header-button-first:after {
   content: "";
 
   width: 20px;
@@ -443,12 +441,48 @@ input[type="radio"].visually-hidden {
   background-image: url("../img/background/icon-login.svg");
   opacity: 0.5;
 }
-.main-navigation-column li:hover {
-  background-color: red;
-}
 /*---------------------------------*/
 /*Стили активных состояний шапки сайта*/
-
+.main-logo-link:hover {
+  background-color: #ca2c37;
+}
+.main-logo-link:active {
+  background-color: #ba2732;
+}
+.header-bookmark-bookmarks:hover {
+  background-color: #212a3a;
+}
+.header-bookmark-bookmarks:active {
+  background-color: #161d29;
+}
+.header-bookmark-basket:hover {
+  background-color: #212a3a;
+}
+.header-bookmark-basket:active {
+  background-color: #161d29;
+}
+.header-bookmark-checkout:hover {
+  background-color: #5fbb2d;
+}
+.header-bookmark-checkout:active {
+  background-color: #518534;
+}
+.header-button:hover {
+  color: #ee3643;
+}
+.header-button-first:hover {
+  /*Не работает fill*/
+}
+.header-button:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+.main-navigation-column li:hover {
+  background-color: #212a3a; 
+}
+.main-navigation-column li:hover {} /*Проверить цвет*/
+.main-navigation-column li:active {
+  background-color: #1d2739;
+}
 /*---------------------------*/
 .promo-block  .imitation-li {
   list-style: none;
