@@ -152,14 +152,14 @@ input[type="radio"].visually-hidden {
 .box-header-top {
   display: flex;
 
-  width: 1200px;
+  width: 100%;
 }
 .main-logo-link {
   width: 220px;
 
   padding: 0;
   margin: 0;
-  margin-left: 130px;
+  margin-left: 195px;
 }
 .main-logo {
   justify-content: center;
@@ -186,7 +186,7 @@ input[type="radio"].visually-hidden {
   padding: 14px 22px 0 23px;
 }
 .header-box-bottom {
-  width: 1200px;
+  width: 100%;
 }
 .header-middle-column {
   display: flex;
@@ -195,10 +195,10 @@ input[type="radio"].visually-hidden {
   width: 940px;
 
   margin-top: 46px;
-  margin-left: 172px;
+  margin-left: 235px;
 }
 .header-headline {
-  width: 205px;
+  width: 215px;
 
   margin: 0;
   padding: 0;
@@ -206,7 +206,7 @@ input[type="radio"].visually-hidden {
 .header-info-column {
   width: 270px;
 
-  margin-left: 71px;
+  margin-left: 61px;
 }
 .header-button-box {
   display: flex;
@@ -225,7 +225,7 @@ input[type="radio"].visually-hidden {
 .main-navigation {
   width: 940px;
 
-  margin-left: 130px;
+  margin-left: 195px;
   margin-top: 44px;
 }
 .main-navigation-column {
