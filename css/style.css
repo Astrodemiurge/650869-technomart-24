@@ -2346,6 +2346,34 @@ input[type="radio"].visually-hidden {
   background-image: url("../img/background/icon-insta.svg");
 }
 /*-----------------------------------*/
+/*Стили активных состояний футера*/
+.sub-navigation-top li:hover {
+  text-decoration: underline;
+}
+.sub-navigation-top li:active {
+  opacity: 0.5;
+}
+.sub-navigation-bottom li:hover {
+  text-decoration: underline;
+}
+.sub-navigation-bottom li:active {
+  opacity: 0.5;
+}
+.social-button li:hover {
+  background-color: #ee3643;
+}
+.social-button li:active {
+  background-color: #ee3643;
+}
+.footer-link:hover {
+  text-decoration: underline;
+}
+.footer-link:active {
+  color: #ee3643;
+
+  text-decoration: none;
+}
+/*--------------------------------*/
 /*Сетки модальных окон*/
 .modal-box {
   display: flex;
