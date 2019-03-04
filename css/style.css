@@ -691,6 +691,23 @@ input[type="radio"].visually-hidden {
 .company-letter-box-footer {
   background-color: #f4f4f4;
 }
+/*Стили активных состояний шапки каталога*/
+.catalog-username::after:hover {
+  /*настроить цвет*/
+}
+.catalog-username::before:hover {
+  /*настроить цвет*/
+}
+.catalog-username:active {
+  opacity: 0.5;
+}
+.catalog-personal-link a:hover {
+  color: #ee3643;
+}
+.catalog-personal-link a:active {
+  color: rgba(50, 66, 92, 0.3);
+}
+/*---------------------------------------*/
 /*Сетки основного содержимого*/
 .main-container {
   display: flex;
