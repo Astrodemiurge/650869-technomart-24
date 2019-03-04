@@ -718,6 +718,8 @@ input[type="radio"].visually-hidden {
   flex-wrap: wrap;
 
   align-content: flex-start;
+
+  position: relative;
 }
 .promo-block-column-left .imitation-li:nth-child(2) {
   margin-left: 20px;
@@ -777,6 +779,10 @@ input[type="radio"].visually-hidden {
   margin-top: 85px;
 }
 .service-box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
   width: 940px;
 
   margin-bottom: 100px;
@@ -789,6 +795,8 @@ input[type="radio"].visually-hidden {
 }
 .service-box-bottom {
   display: flex;
+
+  flex-wrap: wrap;
 }
 .service-column-left {
   width: 240px;
@@ -815,7 +823,6 @@ input[type="radio"].visually-hidden {
   margin: 0;
   padding: 0;
 }
-
 .about-company-box {
   display: flex;
   justify-content: flex-start;
@@ -1498,7 +1505,187 @@ input[type="radio"].visually-hidden {
   background-color: rgba(0, 0, 0, 0.3);
 }
 .imitation-li-big {
-  
+ z-index: 3;
+}
+.imitation-li-big-second {
+  position: absolute;
+
+  top: 163px;
+
+  z-index: 2;
+}
+.popular-item-cart:hover {
+  box-shadow: 0px 10px 25px 0 rgba(41, 52, 73, 0.5);
+}
+.item-box {
+  position: relative;
+}
+.item-box-button {
+  visibility: hidden;
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  background-color: #ffffff;
+
+  padding-top: 44px;
+  padding-left: 41px;
+  padding-right: 30px;
+}
+.item-box-button:hover {
+  visibility: visible;
+}
+.item-box-button:hover {
+  /*Доделать рабочее состояние*/
+}
+.item-box-button-buy {
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  padding: 14px 45px 14px 49px;
+
+  background-color: #63a63e;
+
+  border: none;
+  border-radius: 5px;
+
+  box-shadow: 0 3px #367315;
+
+  position: relative;
+}
+.item-box-button-buy::after {
+  content: "";
+
+  position: absolute;
+
+  top: 14px;
+  left: 15px;
+
+  width: 15px;
+  height: 15px;
+
+  background-image: url("../img/background/icon-cart.svg");
+  opacity: 0.3;
+}
+.item-box-button-buy:hover {
+  background-color: #5fbb2d;
+}
+.item-box-button-buy::after:hover {
+  /*Не работает opacity*/
+}
+.item-box-button-buy:active {
+  background-color: #518534;
+}
+.item-box-button-buy::after:active {
+  /*Не работает opacity*/
+}
+.item-box-button-bookmark {
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #32425c;
+  text-transform: uppercase;
+
+  padding: 14px 32px 14px 31px;
+  margin-top: 7px;
+
+  background-color: #ffffff;
+
+  border: solid 3px #63a63e;
+  border-radius: 5px;
+}
+.item-box-button-bookmark:hover {
+  border-color: #32425c;
+}
+.item-box-button-bookmark:active {
+  opacity: 0.3;
+}
+.popular-brand-column li:hover {
+  box-shadow: 0px 10px 25px 0 rgba(41, 52, 73, 0.5);
+}
+.popular-brand-column li:active {
+  box-shadow: 0px 4px 10px 0 rgba(41, 52, 73, 0.5);
+
+  opacity: 0.5;
+}
+.service-navigation li:hover {
+  background-color: #293449;
+}
+.service-navigation li:active {
+  /*Сделать переключатель содержимого*/
+}
+.service-column-warranty {
+  margin-top: 74px;
+  margin-left: 450px;
+}
+.service-column-warranty h3 {
+  margin: 0;
+  padding: 0;
+}
+.service-column-warranty p {
+  margin: 0;
+  padding: 0;
+}
+.service-column-warranty {
+  position: relative;
+}
+.service-column-warranty p {
+  margin-top: 35px;
+}
+.service-column-warranty::before {
+  content: "";
+
+  width: 389px;
+  height: 283px;
+
+  position: absolute;
+  top: 21px;
+  left: 239px;
+
+  background-image: url("../img/background/warranty.png");
+}
+.service-column-credit {
+  margin-top: 74px;
+  margin-left: 450px;
+}
+.service-column-credit h3 {
+  margin: 0;
+  padding: 0;
+}
+.service-column-credit p {
+  margin: 0;
+  padding: 0;
+}
+.service-column-credit {
+  position: relative;
+}
+.service-column-credit p {
+  margin-top: 35px;
+}
+.service-column-credit::before {
+  content: "";
+
+  width: 465px;
+  height: 285px;
+
+  position: absolute;
+  top: 21px;
+  left: 165px;
+
+  background-image: url("../img/background/credit.png");
+}
+.service-column-credit-button {
+  margin-top: 31px;
+  padding: 14px 44px;
+
+  border-radius: 5px;
+
+  text-transform: uppercase;
 }
 /*----------------------------------------------*/
 /*Стили основного содержимого каталога*/
