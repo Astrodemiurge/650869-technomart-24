@@ -758,6 +758,8 @@ input[type="radio"].visually-hidden {
   display: flex;
   justify-content: space-between;
 
+  position: relative;
+
   margin: 0;
   margin-top: 21px;
   padding: 0;
@@ -1376,6 +1378,8 @@ input[type="radio"].visually-hidden {
   right: 0px;
 
   background-image: url("../img/decorative/new.png");
+
+  z-index: 1;
 }
 .popular-item-cart h3 {
   width: 155px;
@@ -1540,7 +1544,7 @@ input[type="radio"].visually-hidden {
   position: relative;
 }
 .item-box-button {
-  visibility: hidden;
+  display: none;
 
   position: absolute;
 
@@ -1553,8 +1557,10 @@ input[type="radio"].visually-hidden {
   padding-left: 41px;
   padding-right: 30px;
 }
-.item-box-button:hover {
-  visibility: visible;
+.popular-item-cart:hover .item-box-button {
+  display: block;
+
+  z-index: 10;
 }
 .item-box-button:hover {
   /*Доделать рабочее состояние*/
