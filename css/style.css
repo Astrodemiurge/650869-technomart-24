@@ -259,17 +259,6 @@ input[type="radio"].visually-hidden {
 
   box-shadow: 0 5px #b52933; 
 }
-/*.main-logo-link::after {
-  content: "";
-
-  position: absolute;
-
-  padding-top: 5px;
-  
-  width: 220px;
-
-  background-color: transparent;
-}*/ /*Костыль*/
 .header-input-box {
   position: relative;
 }
@@ -479,7 +468,6 @@ input[type="radio"].visually-hidden {
 .main-navigation-column li:hover {
   background-color: #212a3a; 
 }
-.main-navigation-column li:hover {} /*Проверить цвет*/
 .main-navigation-column li:active {
   background-color: #1d2739;
 }
@@ -1752,6 +1740,9 @@ input[type="radio"].visually-hidden {
 }
 .page-navigation-inactive:active {
   border-color: #ee3643;
+}
+.catalog-item-cart:hover .item-box-button {
+  display: block;
 }
 /*----------------------------------------------*/
 /*Стили основного содержимого каталога*/
