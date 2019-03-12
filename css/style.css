@@ -7,6 +7,7 @@ body {
   line-height: 18px;
   color: #000000;
 }
+.filter-paragraph{}
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
@@ -489,6 +490,7 @@ input[type="radio"].visually-hidden {
   color: #ffffff;
 
   text-decoration: none;
+  text-transform: uppercase;
 
   background-color: rgba(0, 0, 0, 0.15);
 }
@@ -498,6 +500,8 @@ input[type="radio"].visually-hidden {
   font-size: 36px;
   line-height: 36px;
   color: #ffffff;
+
+  text-transform: uppercase;
 }
 .promo-block p {
   font-family: "Cuprum", "Arial", sans-serif;
@@ -532,6 +536,8 @@ input[type="radio"].visually-hidden {
   background-color: #ee3643;
 
   text-decoration: none;
+  text-transform: uppercase;
+
   list-style: none;
 
   border: 5px;
@@ -544,6 +550,8 @@ input[type="radio"].visually-hidden {
   font-size: 30px;
   line-height: 30px;
   color: #32425c;
+
+  text-transform: uppercase;
 }
 .cart-item li {
   list-style: none;
@@ -583,6 +591,8 @@ input[type="radio"].visually-hidden {
   font-size: 30px;
   line-height: 30px;
   color: #32425c;
+
+  text-transform: uppercase;
 }
 .popular-brand {
   margin-top: 21px;
@@ -603,6 +613,8 @@ input[type="radio"].visually-hidden {
   font-size: 30px;
   line-height: 30px;
   color: #000000;
+
+  text-transform: uppercase;
 }
 .service h3:nth-child(5) {
   font-family: "Cuprum", "Arial", sans-serif;
@@ -640,6 +652,8 @@ input[type="radio"].visually-hidden {
   font-size: 30px;
   line-height: 30px;
   color: #000000;
+
+  text-transform: uppercase;
 }
 .paragraph-company {
   font-family: "PTSans", "Arial", sans-serif;
@@ -1756,6 +1770,7 @@ input[type="radio"].visually-hidden {
   color: #000000;
 
   text-decoration: none;
+  text-transform: uppercase;
 }
 .main-box-perforator {
   background-color: #f2f6f8; 
@@ -1765,6 +1780,8 @@ input[type="radio"].visually-hidden {
   font-size: 30px;
   line-height: 30px;
   color: #32425c;
+
+  text-transform: uppercase;
 }
 .filter-navigation-crumbs {
   background-color: #f7f3ec;
@@ -1774,9 +1791,19 @@ input[type="radio"].visually-hidden {
   font-size: 13px;
   line-height: 18px;
   color: #000000;
+
+  text-transform: uppercase;
 }
 .filter-navigation-crumbs li {
   list-style: none;
+}
+.filter-paragraph p {
+  font-family: "PTSans", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+
+  text-transform: uppercase;
 }
 .filter-navigation-active a {
   font-family: "PTSans", "Arial", sans-serif;
@@ -1785,6 +1812,7 @@ input[type="radio"].visually-hidden {
   color: #ee3643;
 
   text-decoration: none;
+  text-transform: uppercase;
 }
 .filter-navigation-inactive a  {
   font-family: "PTSans", "Arial", sans-serif;
@@ -1792,6 +1820,7 @@ input[type="radio"].visually-hidden {
   line-height: 18px;
   color: rgba(0, 0, 0, 0.3);
   text-decoration: none;
+  text-transform: uppercase;
 
   border-bottom: 1px dashed #ee3643;
 }
@@ -1809,6 +1838,8 @@ input[type="radio"].visually-hidden {
   font-size: 17px;
   line-height: 30px;
   color: #000000;
+
+  text-transform: uppercase;
 }
 /*.filter fieldset {
   
@@ -1821,12 +1852,15 @@ input[type="radio"].visually-hidden {
   font-size: 15px;
   line-height: 20px;
   color: #000000;
+
+  text-transform: uppercase;
 }
 .filter-button {
   font-family: "PTSans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #000000;
+  text-transform: uppercase;
 
   border: 1px solid #e5e5e5;
   background-color: #ffffff;
@@ -1855,6 +1889,8 @@ input[type="radio"].visually-hidden {
   font-size: 13px;
   line-height: 18px;
   color: #000000;
+
+  text-transform: uppercase;
 }
 .about-perforators {
   background-color: #f4f7f9;
@@ -1864,6 +1900,8 @@ input[type="radio"].visually-hidden {
   font-size: 30px;
   line-height: 30px;
   color: #000000;
+
+  text-transform: uppercase;
 }
 .about-perforators p {
   font-family: "PTSans", "Arial", sans-serif;
