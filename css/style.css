@@ -7,7 +7,6 @@ body {
   line-height: 18px;
   color: #000000;
 }
-.filter-paragraph{}
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
@@ -157,7 +156,7 @@ input[type="radio"].visually-hidden {
 
   padding: 0;
   margin: 0;
-  margin-left: 195px;
+  margin-left: 320px;
 }
 .main-logo {
   display: inline-block;
@@ -194,7 +193,7 @@ input[type="radio"].visually-hidden {
   width: 940px;
 
   margin-top: 46px;
-  margin-left: 235px;
+  margin-left: 360px;
 }
 .header-headline {
   width: 215px;
@@ -224,7 +223,7 @@ input[type="radio"].visually-hidden {
 .main-navigation {
   width: 940px;
 
-  margin-left: 195px;
+  margin-left: 320px;
   margin-top: 44px;
 }
 .main-navigation-column {
@@ -795,7 +794,7 @@ input[type="radio"].visually-hidden {
   margin-top: 20px;
 }
 .service {
-  width: 1200px;
+  width: 100%;
 
   margin-top: 85px;
 }
@@ -807,6 +806,7 @@ input[type="radio"].visually-hidden {
   width: 940px;
 
   margin-bottom: 100px;
+  margin-left: 192px;
 }
 .service-box-top {
   width: 430px;
@@ -1020,7 +1020,7 @@ input[type="radio"].visually-hidden {
   width: 140px;
 }
 .about-perforators {
-  width: 1200px;
+  width: 100%;
 
   margin-top: 60px;
 }
@@ -1028,7 +1028,7 @@ input[type="radio"].visually-hidden {
   width: 938px;
 
   margin-top: 67px;
-  margin-left: 130px;
+  margin-left: 322px;
   margin-bottom: 73px;
 }
 /*------------------------------------*/
@@ -2312,10 +2312,10 @@ input[type="radio"].visually-hidden {
 .main-footer-box-top {
   display: flex;
 
-  width: 1200px;
+  width: 100%;
 }
 .main-footer-column-top {
-  margin-left: 130px; 
+  margin-left: 322px; 
 }
 .main-footer-column-bottom {
   margin-left: 68px; 
@@ -2339,7 +2339,7 @@ input[type="radio"].visually-hidden {
   margin-left: 36px;
 }
 .main-footer-box-bottom {
-  width: 1200px;
+  width: 100%;
 }
 .main-footer-box-bottom {
   display: flex;
@@ -2348,7 +2348,7 @@ input[type="radio"].visually-hidden {
 .main-footer-left-column {
   width: 227px;
 
-  margin-left: 130px;
+  margin-left: 322px;
   margin-top: 40px;
 }
 .main-footer-middle-column {
