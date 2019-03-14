@@ -2497,6 +2497,7 @@ input[type="radio"].visually-hidden {
 .main-footer-box-bottom {
   display: flex;
   justify-content: space-between;
+
 }
 .main-footer-left-column {
   width: 227px;
@@ -2529,7 +2530,7 @@ input[type="radio"].visually-hidden {
   display: flex;
 
   margin-top: 40px;
-  margin-right: 145px;
+  margin-right: 270px;
 }
 .main-footer-feedback-right {
   margin-left: 53px;
