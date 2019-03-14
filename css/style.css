@@ -2227,6 +2227,159 @@ input[type="radio"].visually-hidden {
 
   border-radius: 5px;
 }
+.filter-buy-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.filter-box-top {
+  width: 220px;
+
+  background-color: #f7f3ec;
+
+  padding: 39px 0;
+
+  margin-top: 11px;
+
+  position: relative;
+}
+.circle {
+  width: 22px;
+
+  padding: 10px 0;
+
+  background-color: #ffffff;
+
+  border-radius: 50%;
+
+  box-shadow: 0 2px rgba(0, 0, 0, 0.2)
+}
+.circle-left {
+  position: absolute;
+
+  top: 30px;
+  left: 20px;
+
+  z-index: 2;
+}
+.circle-right {
+  position: absolute;
+
+  top: 30px;
+  right: 40px;
+
+  z-index: 2;
+}
+.line {
+  width: 152px;
+
+  margin-left: 21px;
+  padding: 2px 0;
+
+  background-color: green;
+
+  position: relative;
+}
+.line {
+  /*Изменить цвет*/
+}
+.line::before {
+  content: "";
+
+  width: 28px;
+
+  padding: 2px 0;
+
+  position: absolute;
+
+  top: 0;
+  left: 152px;
+
+  background-color: rgba(0, 0, 0, 0.2)
+}
+.filter-box-top::after {
+  content: "";
+
+  position: absolute;
+
+  top: 38px;
+  left: 29px;
+
+  width: 5px;
+
+  padding: 2px 0;
+
+  border-radius: 50%;
+
+  background-color: rgba(0, 0, 0, 0.2);
+
+  z-index: 3;
+}
+.filter-box-top::before {
+  content: "";
+
+  position: absolute;
+
+  top: 38px;
+  right: 49px;
+
+  width: 5px;
+
+  padding: 2px 0;
+
+  border-radius: 50%;
+
+  background-color: rgba(0, 0, 0, 0.2);
+
+  z-index: 3;
+}
+.line::before {
+
+}
+.filter-box-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 95px;
+
+  padding: 12px 0 14px 0;
+  margin-top: 9px;
+
+  background-color: #f7f3ec;
+}
+.filter-box-middle {
+  width: 30px;
+
+  margin-top: 9px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.filter-box-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 95px;
+
+  padding: 12px 0 14px 0;
+  margin-top: 9px;
+
+  background-color: #f7f3ec;
+}
+.filter-text-number {
+  font-family: "PTSans", "Arial", sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  color: #000000;
+}
+.filter-text-sumbol {
+  font-family: "PTSans", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  color: #000000;
+}
 /*------------------------------------------------*/
 .main-footer-box-top {
   background-color: #32425c;
