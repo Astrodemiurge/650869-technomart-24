@@ -471,6 +471,9 @@ input[type="radio"].visually-hidden {
 .main-navigation-column li:active {
   background-color: #1d2739;
 }
+.header-bookmark-bookmarks-link::after:hover {
+  opacity: 0.9;
+}
 /*---------------------------*/
 .promo-block  .imitation-li {
   list-style: none;
