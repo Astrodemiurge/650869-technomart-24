@@ -445,6 +445,12 @@ input[type="radio"].visually-hidden {
 .header-bookmark-bookmarks:active {
   background-color: #161d29;
 }
+.header-bookmark-bookmarks:active .header-bookmark-bookmarks-link {
+  color: rgba(255, 255, 255, 0.6);
+} 
+.header-bookmark-basket:active .header-bookmark-basket-link {
+  color: rgba(255, 255, 255, 0.6);
+}
 .header-bookmark-basket:hover {
   background-color: #212a3a;
 }
@@ -475,8 +481,14 @@ input[type="radio"].visually-hidden {
 .header-bookmark-bookmarks:hover .header-bookmark-bookmarks-link::after {
   opacity: 1;
 }
-input::-webkit-input-placeholder:focus {
-  background-color: red;
+.header-bookmark-bookmarks:active .header-bookmark-bookmarks-link::after {
+  opacity: 0.6;
+}
+.header-bookmark-basket:hover .header-bookmark-basket-link::after {
+  opacity: 1;
+}
+.header-bookmark-basket:active .header-bookmark-basket-link::after {
+  opacity: 0.6;
 }
 /*---------------------------*/
 .promo-block  .imitation-li {
