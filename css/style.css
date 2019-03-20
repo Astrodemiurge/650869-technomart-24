@@ -347,7 +347,7 @@ input[type="radio"].visually-hidden {
 .header-button {
   position: relative;
 }
-.header-button-first:after {
+.header-button-first::after {
   content: "";
 
   width: 20px;
@@ -405,7 +405,7 @@ input[type="radio"].visually-hidden {
 .main-navigation-column-catalog li {
   padding: 8px 29px 22px 31px;
 }
-.catalog-username::before {
+.catalog-username::after {
   content: "";
 
   width: 20px;
@@ -418,7 +418,7 @@ input[type="radio"].visually-hidden {
   background-image: url("../img/background/icon-user.svg");
   opacity: 0.5;
 }
-.catalog-username::after {
+.catalog-username::before {
   content: "";
 
   width: 20px;
@@ -428,7 +428,7 @@ input[type="radio"].visually-hidden {
   top: 16px;
   right: 12px;
 
-  background-image: url("../img/background/icon-login.svg");
+  background-image: url("../img/background/icon-logout.svg");
   opacity: 0.5;
 }
 /*---------------------------------*/
@@ -466,9 +466,33 @@ input[type="radio"].visually-hidden {
 .header-button:hover {
   color: #ee3643;
 }
-.header-button-first:hover {
-  /*Не работает fill*/
+.header-button-first:hover::after {
+  content: "";
+
+  width: 20px;
+  height: 17px;
+
+  position: absolute;
+  top: 16px;
+  left: 14px;
+
+  background-image: url("../img/background/icon-login-hover.svg");
+
+  opacity: 1;
 }
+.header-button-first:active::after {
+  content: "";
+
+  width: 20px;
+  height: 17px;
+
+  position: absolute;
+  top: 16px;
+  left: 14px;
+
+  background-image: url("../img/background/icon-login.svg");
+  opacity: 0.5;
+} 
 .header-button:active {
   color: rgba(0, 0, 0, 0.3);
 }
@@ -489,6 +513,9 @@ input[type="radio"].visually-hidden {
 }
 .header-bookmark-basket:active .header-bookmark-basket-link::after {
   opacity: 0.6;
+}
+.header-bookmark-checkout:active a {
+  color: rgba(255, 255, 255, 0.5);
 }
 /*---------------------------*/
 .promo-block  .imitation-li {
@@ -712,11 +739,55 @@ input[type="radio"].visually-hidden {
   background-color: #f4f4f4;
 }
 /*Стили активных состояний шапки каталога*/
-.catalog-username::after:hover {
-  /*настроить цвет*/
+.catalog-username:hover::after{
+  content: "";
+
+  width: 20px;
+  height: 18px;
+
+  position: absolute;
+  top: 15px;
+  left: 13px;
+
+  background-image: url("../img/background/icon-user-hover.svg");
+  opacity: 1;
 }
-.catalog-username::before:hover {
-  /*настроить цвет*/
+.catalog-username:active::after {
+  content: "";
+
+  width: 20px;
+  height: 18px;
+
+  position: absolute;
+  top: 15px;
+  left: 13px;
+
+  background-image: url("../img/background/icon-user.svg");
+}
+.catalog-username:hover::before {
+  content: "";
+
+  width: 20px;
+  height: 17px;
+
+  position: absolute;
+  top: 16px;
+  right: 12px;
+
+  background-image: url("../img/background/icon-logout-hover.svg");
+  opacity: 1;
+}
+.catalog-username:active::before {
+  content: "";
+
+  width: 20px;
+  height: 17px;
+
+  position: absolute;
+  top: 16px;
+  right: 12px;
+
+  background-image: url("../img/background/icon-logout.svg");
 }
 .catalog-username:active {
   opacity: 0.5;
@@ -726,6 +797,12 @@ input[type="radio"].visually-hidden {
 }
 .catalog-personal-link a:active {
   color: rgba(50, 66, 92, 0.3);
+}
+.header-basket-active:hover {
+  background-color: #ee3643;
+}
+.header-basket-active:active {
+  background-color: #ee3643;
 }
 /*---------------------------------------*/
 /*Сетки основного содержимого*/
@@ -1745,10 +1822,22 @@ input[type="radio"].visually-hidden {
 
   border: transparent;
 }
-.filter-navigation-down::after:hover {
-  /*Изменить цвет*/ 
+.filter-navigation-down:hover::after {
+  content: "";
+
+  width: 11px;
+  height: 10px;
+
+  position: absolute;
+
+  top: 3px;
+  left: -5px;
+
+  background-image: url("../img/background/icon-down-dir-hover.svg"); 
+
+  opacity: 1;
 }
-.filter-navigation-down::after:active {
+.filter-navigation-down:active::after {
   
 }
 .label-filter-manufacturer::after:hover {
