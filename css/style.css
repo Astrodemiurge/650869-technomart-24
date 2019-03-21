@@ -1841,6 +1841,9 @@ input[type="radio"].visually-hidden {
 
   opacity: 1;
 }
+.label-filter-manufacturer {
+  /*Доделать disabled*/
+}
 .label-filter-manufacturer:hover::after {
   content: "";
 
