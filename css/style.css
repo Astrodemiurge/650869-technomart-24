@@ -993,6 +993,8 @@ input[type="radio"].visually-hidden {
   width: 940px;
 
   margin-top: 25px;
+
+  padding: 1px 0;
 }
 .main-box-perforator h2 {
   margin-top: 32px;
