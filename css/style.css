@@ -184,6 +184,8 @@ input[type="radio"].visually-hidden {
 }
 .header-box-bottom {
   width: 100%;
+
+  padding-bottom: 60px;
 }
 .header-middle-column {
   display: flex;
@@ -893,6 +895,7 @@ input[type="radio"].visually-hidden {
   width: 100%;
 
   margin-top: 85px;
+  padding-bottom: 100px;
 }
 .service-box {
   display: flex;
@@ -943,6 +946,7 @@ input[type="radio"].visually-hidden {
   width: 940px;
 
   margin: 0 auto;
+  padding-bottom: 100px;
 }
 .about-company {
   width: 545px;
@@ -957,10 +961,10 @@ input[type="radio"].visually-hidden {
 }
 /*---------------------------*/
 /*Сетки основного содержимого каталога*/
-.main-catalog {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.main-catalog-container {
+  width: 940px;
+
+  margin: 0 auto;
 }
 .catalog-navigation-crumbs {
   display: flex;
@@ -1086,8 +1090,7 @@ input[type="radio"].visually-hidden {
 .page-navigation-crumbs {
   width: 285px;
   
-  margin-top: 52px;
-  margin-right: 195px;
+  margin: 52px 0 0 228px;
 }
 .page-navigation-list {
   display: flex;
@@ -1118,13 +1121,13 @@ input[type="radio"].visually-hidden {
   width: 100%;
 
   margin-top: 60px;
-}
-.about-perforators-box {
-  width: 938px;
 
-  margin-top: 67px;
-  margin-left: 322px;
-  margin-bottom: 73px;
+  padding: 60px 0;
+}
+.about-perforators-container {
+  width: 940px;
+
+  margin: 0 auto;
 }
 /*------------------------------------*/
 /*Декоративные стили основного содержимого*/
@@ -2549,9 +2552,6 @@ input[type="radio"].visually-hidden {
   text-decoration: none;
 }
 /*Сетки футера*/
-.main-footer {
-  margin-top: 86px;
-}
 .main-footer-catalog {
   margin-top: 0;
 }
