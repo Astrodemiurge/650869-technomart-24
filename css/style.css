@@ -1841,20 +1841,59 @@ input[type="radio"].visually-hidden {
 
   opacity: 1;
 }
-.filter-navigation-down:active::after {
-  
+.label-filter-manufacturer:hover::after {
+  content: "";
+
+  position: absolute;
+
+  width: 19px;
+  height: 19px;
+
+  top: -2px;
+  left: -35px;
+
+  border: 2px solid #b5b5b5;
+  border-radius: 3px;
 }
-.label-filter-manufacturer::after:hover {
-  background-color: #c5c5c5;
+.filter-manufacturer:checked + .label-filter-manufacturer:hover::before {
+  content: "";
+
+  position: absolute;
+
+  width: 27px;
+  height: 23px;
+
+  top: -2px;
+  left: -35px;
+
+  background-image: url("../img/background/checkbox-on-hover.svg")
 }
-.label-filter-manufacturer::after:active {
-  /*Изменить цвета*/
+.label-fieldset-nutrition:hover::after {
+  content: "";
+
+  position: absolute;
+
+  width: 19px;
+  height: 19px;
+
+  top: -4px;
+  left: -35px;
+
+  border: 3px solid #b5b5b5;
+  border-radius: 50%;
 }
-.label-filter-manufacturer::before:hover {
-  
-}
-.label-filter-manufacturer::before:active {
-  
+.filter-nutrition:checked + .label-fieldset-nutrition:hover::before {
+  content: "";
+
+  position: absolute;
+
+  width: 25px;
+  height: 25px;
+
+  top: -4px;
+  left: -35px;
+
+  background-image: url("../img/background/radio-on-hover.svg");
 }
 .catalog-item-cart:hover {
   box-shadow: 0px 10px 25px 0 rgba(41, 52, 73, 0.5);
