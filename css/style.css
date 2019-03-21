@@ -2550,10 +2550,6 @@ input[type="radio"].visually-hidden {
 }
 /*Сетки футера*/
 .main-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
   margin-top: 86px;
 }
 .main-footer-catalog {
@@ -2570,28 +2566,32 @@ input[type="radio"].visually-hidden {
   margin-top: 32px;
 }
 .main-footer-box-top {
-  display: flex;
-
   width: 100%;
 }
-.main-footer-column-top {
-  margin-left: 322px; 
-}
-.main-footer-column-bottom {
-  margin-left: 68px; 
+.main-footer-container-top {
+  display: flex;
+
+  margin: 0 auto;
+  
+  width: 940px; 
 }
 .sub-navigation {
   display: flex;
   flex-direction: column;
+
+  margin-left: 13px;
 }
 .sub-navigation li:not(:first-child) {
   margin-left: 60px;
 }
 .sub-navigation-top {
   display: flex;
+
+  margin-top: 0;
+  margin-left: 11px;
 }
 .sub-navigation-top li {
-  margin-top: 42px;
+  margin-top: 46px;
 }
 .sub-navigation-bottom {
   display: flex;
@@ -2601,19 +2601,21 @@ input[type="radio"].visually-hidden {
 .main-footer-box-bottom {
   width: 100%;
 }
-.main-footer-box-bottom {
+.main-footer-container-bottom {
   display: flex;
   justify-content: space-between;
 
+  width: 940px;
+
+  margin: 0 auto;
 }
 .main-footer-left-column {
   width: 227px;
 
-  margin-left: 322px;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .main-footer-middle-column {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .social-button {
   display: flex;
@@ -2636,8 +2638,7 @@ input[type="radio"].visually-hidden {
 .main-footer-right-column {
   display: flex;
 
-  margin-top: 40px;
-  margin-right: 270px;
+  margin-top: 20px;
 }
 .main-footer-feedback-right {
   margin-left: 53px;
