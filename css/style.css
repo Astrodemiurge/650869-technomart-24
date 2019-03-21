@@ -141,22 +141,21 @@ input[type="radio"].visually-hidden {
 }
 /*--------------------*/
 /*Сетки шапки сайта*/
-.main-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 .box-header-top {
+  width: 100%;
+}
+.box-header-container {
   display: flex;
 
-  width: 100%;
+  width: 940px;
+
+  margin: 0 auto;
 }
 .main-logo-link {
   width: 220px;
 
   padding: 0;
   margin: 0;
-  margin-left: 320px;
 }
 .main-logo {
   display: inline-block;
@@ -192,26 +191,26 @@ input[type="radio"].visually-hidden {
 
   width: 940px;
 
-  margin-top: 46px;
-  margin-left: 360px;
+  margin: 0 auto;
 }
 .header-headline {
   width: 215px;
 
-  margin: 0;
+  margin: 46px 0 0 42px;
   padding: 0;
 }
 .header-info-column {
   width: 270px;
 
-  margin-left: 61px;
+  margin: 46px 0 0 61px;
+
 }
 .header-button-box {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 
-  margin-left: 69px;
+  margin: 46px 0 0 69px;
 }
 .header-button-box a:nth-child(1) {
   padding: 15px 25px 15px 48px;
@@ -220,16 +219,18 @@ input[type="radio"].visually-hidden {
   margin-left: 10px;
   padding: 14px 25px 15px 25px;
 }
+.header-bottom-container {
+  margin: 0 auto;
+
+  width: 940px;
+}
 .main-navigation {
   width: 940px;
 
-  margin-left: 320px;
   margin-top: 44px;
 }
 .main-navigation-column {
   display: flex;
-
-  margin-bottom: 50px;
 }
 /*-----------------*/
 /*Дополнительная сетка шапки каталога*/
