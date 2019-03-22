@@ -439,7 +439,7 @@ input[type="radio"].visually-hidden {
 }
 .search-site:hover {
   background-color: #ffffff;
-}
+} 
 .search-site:hover input::placeholder {
   background-color: #ffffff;
 
