@@ -435,6 +435,27 @@ input[type="radio"].visually-hidden {
 }
 /*---------------------------------*/
 /*Стили активных состояний шапки сайта*/
+.header-search-button  {
+
+}
+.search-site:hover {
+  background-color: #ffffff;
+}
+.search-site:hover input::placeholder {
+  background-color: #ffffff;
+
+  color: #000000;
+
+  border: none;
+}
+.search-site input[type="text"]:hover {
+  background-color: #ffffff;
+}
+.search-site:hover input {
+  background-color: #ffffff;
+
+  border: transparent;
+}
 .main-logo-link:hover {
   background-color: #ca2c37;
 }
