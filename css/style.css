@@ -282,7 +282,6 @@ input[type="radio"].visually-hidden {
   border: 0;
 
   background-color: transparent;
-  opacity: 0.3;
 }
 .header-bookmark-bookmarks {
   position: relative;
@@ -435,8 +434,8 @@ input[type="radio"].visually-hidden {
 }
 /*---------------------------------*/
 /*Стили активных состояний шапки сайта*/
-.search-site:hover svg path {
-  fill: #ff0000;
+.search-site:hover .svg-search-color {
+  fill: rgba(238, 54, 67, 1);
 }
 .search-site:hover {
   background-color: #ffffff;
