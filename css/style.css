@@ -450,6 +450,9 @@ input[type="radio"].visually-hidden {
 .search-site-input:focus .svg-search-color {
   fill: #ee3643;
 }
+.search-site-input[type="text"]:focus .svg-search-color {
+  fill: #ee3643;
+}
 .main-logo-link:hover {
   background-color: #ca2c37;
 }
