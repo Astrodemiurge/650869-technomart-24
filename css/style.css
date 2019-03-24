@@ -434,11 +434,11 @@ input[type="radio"].visually-hidden {
   color: #ffffff;
 }
 .search-site-input {
-  width: 95%;
+  width: 219px;
   height: 95%;
 }
 .search-site input[type="text"] {
-  padding-left: 49px;  
+  padding: 0 0 0 49px;  
 }
 /*Стили активных состояний шапки сайта*/
 .search-site input[type="text"]:focus {
@@ -447,7 +447,7 @@ input[type="radio"].visually-hidden {
 .sarch-site:hover {
   background-color: #ffffff;
 }
-.search-site-input:hover .svg-search-color {
+.search-site-input:focus .svg-search-color {
   fill: #ee3643;
 }
 .main-logo-link:hover {
