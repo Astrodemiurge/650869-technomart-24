@@ -3065,3 +3065,17 @@ input[type="radio"].visually-hidden {
   border: 0;
 }
 /*---------------------------------------------*/
+/*Активные состояния модальных окон*/
+.company-letter-input:hover {
+  border: 2px solid #b5b5b5;
+}
+.company-letter-input:focus {
+  border: 2px solid #ee3643;
+}
+.company-letter-textarea:hover {
+  border: 2px solid #b5b5b5;
+}
+.company-letter-textarea:focus {
+  border: 2px solid #ee3643;
+}
+/*---------------------------------*/
