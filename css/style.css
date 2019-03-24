@@ -27,7 +27,9 @@ input[type="radio"].visually-hidden {
 .box-header-top {
   background-color: #293449;
 }
-.search-site input::placeholder {
+.search-site-input {}
+/*
+.search-site-input::placeholder {
   font-family: "Cuprum", "Arial", sans-serif;
   font-size: 17px;
   line-height: 18px;
@@ -37,6 +39,7 @@ input[type="radio"].visually-hidden {
 
   border: none;
 }
+*/
 .search-site input[type="text"] {
   font-family: "Cuprum", "Arial", sans-serif;
   font-size: 17px;
@@ -437,33 +440,11 @@ input[type="radio"].visually-hidden {
 .search-site {
   outline: 1px solid red;
 }
-/*
-.search-site-input:focus .svg-search-color {
-  fill: rgba(238, 54, 67, 1);
-}
-.search-site:focus {
-  background-color: #ffffff;
-} 
-.search-site:focus input::placeholder {
-  background-color: #ffffff;
-
-  color: #000000;
-
-  border: none;
-}
 .search-site input[type="text"]:focus {
   background-color: #ffffff;
 }
-.search-site:focus input {
+.search-site-input:focus .search-site {
   background-color: #ffffff;
-
-  border: transparent;
-}
-*/
-.search-site-input:focus::placeholder {
-  background-color: #ffffff;
-
-  color: #000000;
 }
 .main-logo-link:hover {
   background-color: #ca2c37;
