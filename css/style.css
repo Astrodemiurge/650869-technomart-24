@@ -1410,8 +1410,6 @@ input[type="radio"].visually-hidden {
   background-color: transparent;
 
   border: 0;
-
-  outline: transparent;
 }
 .button-right-big {
   width: 22px;
@@ -1425,8 +1423,6 @@ input[type="radio"].visually-hidden {
   background-color: transparent;
 
   border: 0;
-
-  outline: transparent;
 }
 .button-left-small {
   position: absolute;
@@ -1441,7 +1437,6 @@ input[type="radio"].visually-hidden {
   background-color: #ffffff;
 
   border-radius: 50%;
-  border: transparent;
 }
 .button-right-small {
   position: absolute;
@@ -1456,7 +1451,6 @@ input[type="radio"].visually-hidden {
   background-color: #ffffff;
 
   border-radius: 50%;
-  border: transparent;
 }
 .imitation-li-big::after {
   content: "";
@@ -2883,12 +2877,6 @@ input[type="radio"].visually-hidden {
 .modal-map {
   position: relative;
 }
-.modal-map-button {
-  position: absolute;
-
-  top: 0;
-  right: 0;
-}
 .company-letter-column-top {
   display: flex;
 
@@ -2910,8 +2898,6 @@ input[type="radio"].visually-hidden {
 }
 .letter-column-middle {
   margin-left: 80px;
-
-  width: 460px
 }
 .column-middle-form {
   display: flex;
@@ -2951,10 +2937,10 @@ input[type="radio"].visually-hidden {
 
   margin-top: 68px; 
 }
-.main-container-button {
+.modal-item-button-checkout {
   margin-left: 80px;
 }
-.modal-item-button {
+.modal-item-button-continue {
   margin-left: 20px; 
 }
 .modal-item-basket-button {
@@ -2965,5 +2951,117 @@ input[type="radio"].visually-hidden {
 }
 /*-----------------------------*/
 /*Декоративные элементы модальных окон*/
+.company-letter-input {
+  border: 2px solid #dee3e4;
 
+  width: 220px;
+
+  padding: 14px 0;
+
+  border-radius: 5px;
+}
+.company-letter-input-right {
+  padding: 14px 0 17px 0;
+}
+.company-letter-input::placeholder {
+  padding: 13px 0 0 16px;
+}
+.company-letter-textarea {
+  border: 2px solid #dee3e4;
+
+  width: 448px;
+
+  padding: 13px 0 88px 16px;
+
+  border-radius: 5px;
+}
+.copany-letter-textarea::placeholder {
+  padding-left: 16px;
+}
+.company-letter-button {
+  padding: 14px 0;
+  
+  width: 460px;
+
+  margin-left: 80px;
+
+  border-radius: 5px;
+}
+.company-letter-button-close {
+  width: 21px;
+  height: 21px;
+
+  position: absolute;
+  top: 9px;
+  right: 9px;
+
+  background-image: url("../img/background/icon-close.svg");
+  background-color: transparent;
+
+  border: 0;
+}
+.modal-map-button {
+  width: 21px;
+  height: 21px;
+
+  position: absolute;
+  top: 9px;
+  right: 9px;
+
+  background-image: url("../img/background/icon-close.svg");
+  background-color: transparent;
+
+  border: 0;
+}
 /*------------------------------------*/
+/*Декоративные элементы модальных окон каталога*/
+.modl-item-top-box {
+  position: relative;
+}
+.modal-text-alert::after {
+  content: "";
+
+  position: absolute;
+
+  width: 66px;
+  height: 66px;
+
+  top: 50px;
+  left: 81px;
+
+  background-image: url("../img/background/form-1.svg");
+}
+.modal-item-button-checkout {
+  padding: 14px 0;
+  
+  width: 220px;
+
+  margin-left: 80px;
+
+  border-radius: 5px;
+}
+.modal-item-button-continue {
+  padding: 14px 0;
+  
+  width: 220px;
+
+  margin-left: 20px;
+
+  border-radius: 5px;
+
+  border: none;
+}
+.modal-item-basket-button {
+  width: 21px;
+  height: 21px;
+
+  position: absolute;
+  top: 9px;
+  right: 9px;
+
+  background-image: url("../img/background/icon-close.svg");
+  background-color: transparent;
+
+  border: 0;
+}
+/*---------------------------------------------*/
