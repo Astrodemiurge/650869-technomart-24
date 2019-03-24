@@ -434,26 +434,36 @@ input[type="radio"].visually-hidden {
 }
 /*---------------------------------*/
 /*Стили активных состояний шапки сайта*/
-.search-site:hover .svg-search-color {
+.search-site {
+  outline: 1px solid red;
+}
+/*
+.search-site-input:focus .svg-search-color {
   fill: rgba(238, 54, 67, 1);
 }
-.search-site:hover {
+.search-site:focus {
   background-color: #ffffff;
 } 
-.search-site:hover input::placeholder {
+.search-site:focus input::placeholder {
   background-color: #ffffff;
 
   color: #000000;
 
   border: none;
 }
-.search-site input[type="text"]:hover {
+.search-site input[type="text"]:focus {
   background-color: #ffffff;
 }
-.search-site:hover input {
+.search-site:focus input {
   background-color: #ffffff;
 
   border: transparent;
+}
+*/
+.search-site-input:focus::placeholder {
+  background-color: #ffffff;
+
+  color: #000000;
 }
 .main-logo-link:hover {
   background-color: #ca2c37;
@@ -2569,9 +2579,6 @@ input[type="radio"].visually-hidden {
 
   z-index: 3;
 }
-.line::before {
-
-}
 .filter-box-left {
   display: flex;
   justify-content: center;
@@ -2859,89 +2866,104 @@ input[type="radio"].visually-hidden {
 }
 /*--------------------------------*/
 /*Сетки модальных окон*/
-.modal-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  margin: 0;
-  padding: 0;
-
-  width: 1200px;
-}
 .modal-map {
   width: 940px;
+
+  margin: 0 auto;
 }
 .company-letter {
   width: 620px;
+
+  margin: 0 auto;
+
+  border-top: 7px solid #ee3643;
+
+  position: relative;
 }
-.letter {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.modal-map {
+  position: relative;
+}
+.modal-map-button {
+  position: absolute;
+
+  top: 0;
+  right: 0;
 }
 .company-letter-column-top {
   display: flex;
-  justify-content: flex-end;
 
-  margin-top: 48px;
-}
-.company-letter-column-middle {
-  margin-top: 22px;
-}
-.company-letter-box-footer {
-  margin-top: 37px;
+  margin-left: 80px;
+  margin-top: 55px;
 }
 .column-top-form-left {
   display: flex;
   flex-direction: column;
-
-  width: 220px;
+}
+.company-letter-input {
+  margin-top: 13px;
 }
 .column-top-form-right {
   display: flex;
   flex-direction: column;
 
-  width: 220px;
-
   margin-left: 20px;
+}
+.letter-column-middle {
+  margin-left: 80px;
+
+  width: 460px
 }
 .column-middle-form {
   display: flex;
   flex-direction: column;
 }
-.modal-item-basket {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.company-letter-textarea {
+  margin-top: 13px;
+}
+.company-letter-box-footer {
+  margin-top: 37px;
 
-  width: 620px;
+  padding: 37px 0;
+}
+.company-letter-button-close {
+  position: absolute;
+
+  top: 0; 
+  right: 0;
+}
+/*--------------------*/
+/*Сетки модальных окон каталога*/
+.modal-item-basket {
+  border-top: 7px solid #ee3643;
 
   margin: 0 auto;
 
+  width: 620px;
+
+  position: relative;
 }
 .modal-item-top-box {
-  display: flex;
-  flex-direction: column;
-
-}
-.modal-text-alert {
   margin-top: 68px;
+  margin-left: 179px;
 }
 .modal-item-box {
-  display: flex;
-  align-items: center;
+  padding: 37px 0;
 
-  width: 620px;
+  margin-top: 68px; 
 }
-.modal-item-box a {
+.main-container-button {
   margin-left: 80px;
-
-  width: 220px;
 }
-.modal-item-box button {
-  margin-left: 20px;
-
-  width: 220px;
+.modal-item-button {
+  margin-left: 20px; 
 }
-/*--------------------*/
+.modal-item-basket-button {
+  position: absolute;
+
+  top: 0;
+  right: 0;
+}
+/*-----------------------------*/
+/*Декоративные элементы модальных окон*/
+
+/*------------------------------------*/
