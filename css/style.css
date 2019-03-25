@@ -3117,11 +3117,14 @@ input[type="radio"].visually-hidden {
 
   display: none;
 
-  top: 50%;
-  left: 50%;
+  top: 25%;
+  left: 25%;
 
   background-color: #ffffff;
   
   z-index: 10;
+}
+.modal-page {
+  margin-top: 15%;
 }
 /*-------------------------------*/
