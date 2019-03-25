@@ -3095,3 +3095,15 @@ input[type="radio"].visually-hidden {
   border: 2px solid #ee3643;
 }
 /*---------------------------------*/
+/*Позиционирование модальных окон*/
+.modal {
+  position: fixed;
+
+  top: 50%;
+  left: 50%;
+
+  background-color: #ffffff;
+  
+  z-index: 10;
+}
+/*-------------------------------*/
