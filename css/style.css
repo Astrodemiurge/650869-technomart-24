@@ -448,7 +448,9 @@ input[type="radio"].visually-hidden {
 .search-site input[type="text"]:focus {
   background-color: #ffffff;
 }
-.header-search-button { }
+.search-site input[type="text"]:focus~.header-search-button path { 
+  fill: #ee3643; 
+  } 
 .sarch-site:hover {
   background-color: #ffffff;
 }
