@@ -7,7 +7,7 @@ body {
   line-height: 18px;
   color: #000000;
 }
-.catalog-login {}
+.search-site {}
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
@@ -448,14 +448,28 @@ input[type="radio"].visually-hidden {
 .search-site input[type="text"]:focus {
   background-color: #ffffff;
 }
+.header-search-button { }
 .sarch-site:hover {
   background-color: #ffffff;
 }
-.search-site-input:focus .svg-search-color {
-  fill: #ee3643;
-}
-.search-site-input[type="text"]:focus .svg-search-color {
-  fill: #ee3643;
+.search-site:hover .button::after {
+  content: "";
+
+  position: absolute;
+
+  top: 13px;
+  left: 12px;
+
+  width: 17px;
+  height: 17px;
+
+  border: 0;
+
+  background-color: transparent;
+
+  opacity: 1;
+
+  z-index: 1;
 }
 .main-logo-link:hover {
   background-color: #ca2c37;
@@ -1511,7 +1525,7 @@ input[type="radio"].visually-hidden {
 
   background-image: url("../img/decorative/new.png");
 
-  z-index: 1;
+  z-index: 9;
 }
 .popular-item-cart h3 {
   width: 155px;
@@ -3098,6 +3112,8 @@ input[type="radio"].visually-hidden {
 /*Позиционирование модальных окон*/
 .modal {
   position: fixed;
+
+  display: none;
 
   top: 50%;
   left: 50%;
