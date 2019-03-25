@@ -7,7 +7,7 @@ body {
   line-height: 18px;
   color: #000000;
 }
-.search-site {}
+.catalog-username {}
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
@@ -841,7 +841,7 @@ input[type="radio"].visually-hidden {
 .asd {
   /*сделать рабочим*/
 }
-.catalog-username-user:active + .catalog-username {
+.catalog-username:active {
   opacity: 0.5;
 }
 .catalog-username-logout:active + .catalog-username {
