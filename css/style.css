@@ -7,7 +7,7 @@ body {
   line-height: 18px;
   color: #000000;
 }
-.item-box-button {}
+.catalog-login {}
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
@@ -364,10 +364,13 @@ input[type="radio"].visually-hidden {
 .header-basket-active {
   background-color: #ee3643;
 }
-.catalog-username {
-  padding: 14px 69px 14px 47px;
+.catalog-username-box {
+  margin-top: 16px;
 
   position: relative;
+}
+.catalog-username {
+  padding: 14px 69px 14px 47px;
 }
 .catalog-personal-link {
   display: flex;
@@ -376,7 +379,7 @@ input[type="radio"].visually-hidden {
 
   width: 210px;
 
-  margin-top: 14px;
+  margin-top: 24px;
   margin-left: 17px;
 
   position: relative;
@@ -401,27 +404,27 @@ input[type="radio"].visually-hidden {
 .main-navigation-column-catalog li {
   padding: 8px 29px 22px 31px;
 }
-.catalog-username::after {
+.catalog-username-user {
   content: "";
 
   width: 20px;
   height: 18px;
 
   position: absolute;
-  top: 15px;
+  top: 0;
   left: 13px;
 
   background-image: url("../img/background/icon-user.svg");
   opacity: 0.5;
 }
-.catalog-username::before {
+.catalog-username-logout {
   content: "";
 
   width: 20px;
   height: 17px;
 
   position: absolute;
-  top: 16px;
+  top: 1px;
   right: 12px;
 
   background-image: url("../img/background/icon-logout.svg");
@@ -769,57 +772,63 @@ input[type="radio"].visually-hidden {
   background-color: #f4f4f4;
 }
 /*Стили активных состояний шапки каталога*/
-.catalog-username:hover::after{
+.catalog-username-user:hover {
   content: "";
 
   width: 20px;
   height: 18px;
 
   position: absolute;
-  top: 15px;
+  top: 0;
   left: 13px;
 
   background-image: url("../img/background/icon-user-hover.svg");
   opacity: 1;
 }
-.catalog-username:active::after {
+.catalog-username-user:active {
   content: "";
 
   width: 20px;
   height: 18px;
 
   position: absolute;
-  top: 15px;
+  top: 0;
   left: 13px;
 
   background-image: url("../img/background/icon-user.svg");
 }
-.catalog-username:hover::before {
+.catalog-username-logout:hover {
   content: "";
 
   width: 20px;
   height: 17px;
 
   position: absolute;
-  top: 16px;
+  top: 1px;
   right: 12px;
 
   background-image: url("../img/background/icon-logout-hover.svg");
   opacity: 1;
 }
-.catalog-username:active::before {
+.catalog-username-logout:active {
   content: "";
 
   width: 20px;
   height: 17px;
 
   position: absolute;
-  top: 16px;
+  top: 1px;
   right: 12px;
 
   background-image: url("../img/background/icon-logout.svg");
 }
-.catalog-username:active {
+.asd {
+  /*сделать рабочим*/
+}
+.catalog-username-user:active + .catalog-username {
+  opacity: 0.5;
+}
+.catalog-username-logout:active + .catalog-username {
   opacity: 0.5;
 }
 .catalog-personal-link a:hover {
@@ -1765,9 +1774,6 @@ input[type="radio"].visually-hidden {
 .service-navigation li:hover:not(:first-child) {
   background-color: #293449;
 }
-.service-navigation li:active {
-  /*Сделать переключатель содержимого*/
-}
 .service-column-warranty {
   margin-top: 74px;
   margin-left: 320px;
@@ -1866,9 +1872,6 @@ input[type="radio"].visually-hidden {
   background-image: url("../img/background/icon-down-dir-hover.svg"); 
 
   opacity: 1;
-}
-.label-filter-manufacturer {
-  /*Доделать disabled*/
 }
 .filter-manufacturer:disabled + .label-filter-manufacturer::after {
   content: "";
@@ -2523,9 +2526,6 @@ input[type="radio"].visually-hidden {
 
   position: relative;
 }
-.line {
-  /*Изменить цвет*/
-}
 .line::before {
   content: "";
 
@@ -2782,7 +2782,6 @@ input[type="radio"].visually-hidden {
   margin-top: 40px;
   margin-left: 53px;
 }
-.main-footer-container-bottom {}
 /*------------*/
 /*Стили декоративных элементов футера*/
 .footer-logo-link {
@@ -2794,7 +2793,7 @@ input[type="radio"].visually-hidden {
 
   background-color: #ee3643;
 
-  box-shadow: 0 5px #b52933; /*Изменить цвет*/
+  box-shadow: 0 5px #b52933; 
 }
 .social-button-link {
   position: relative;
