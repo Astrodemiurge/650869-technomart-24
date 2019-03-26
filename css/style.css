@@ -7,9 +7,6 @@ body {
   line-height: 18px;
   color: #000000;
 }
-.promo-block {
-  padding-left: ;
-}
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
@@ -1203,8 +1200,8 @@ input[type="radio"].visually-hidden {
 
   width: 135px;
 
-  margin: 15px 0 17px 25px;
-  padding: 12px 0;
+  margin: 17px 0 19px 25px;
+  padding: 10px 0;
 
   border-radius: 5px;
 
@@ -1229,12 +1226,12 @@ input[type="radio"].visually-hidden {
 }
 .imitation-li-big a {
   position: absolute;
-  bottom: 22px;
+  bottom: 27px;
   left: 25px;  
 
   z-index: 1;
 
-  padding: 14px 45px 14px 45px;
+  padding: 10px 45px 10px 51px;
 
   background-color: #ee3643;
 
@@ -1442,7 +1439,7 @@ input[type="radio"].visually-hidden {
 
   position: absolute;
   top: 114px;
-  right: 25px;
+  right: 20px;
 
   background-image: url("../img/background/icon-right.svg");
   background-color: transparent;
@@ -1452,8 +1449,8 @@ input[type="radio"].visually-hidden {
 .button-left-small {
   position: absolute;
 
-  bottom: 36px;
-  left: 295px;
+  bottom: 40px;
+  left: 294px;
 
   padding-top: 10px;
 
@@ -1468,8 +1465,8 @@ input[type="radio"].visually-hidden {
 .button-right-small {
   position: absolute;
 
-  bottom: 36px;
-  right: 295px;
+  bottom: 40px;
+  right: 294px;
 
   padding-top: 10px;
 
@@ -1486,8 +1483,8 @@ input[type="radio"].visually-hidden {
 
   position: absolute;
 
-  bottom: 38px;
-  right: 298px;
+  bottom: 42px;
+  right: 297px;
 
   padding-top: 6px;
 
@@ -1504,8 +1501,8 @@ input[type="radio"].visually-hidden {
   justify-content: center;
   align-items: center;
 
-  padding: 14px 55px 14px 55px;
-  margin-left: 343px;
+  padding: 11px 55px 10px 55px;
+  margin-left: 357px;
 
   border-radius: 5px;
 }
