@@ -7,7 +7,7 @@ body {
   line-height: 18px;
   color: #000000;
 }
-.catalog-username {}
+.button-right-small{}
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
@@ -264,7 +264,7 @@ input[type="radio"].visually-hidden {
 .header-search-button {
   position: absolute;
 
-  top: 13px;
+  top: 12px;
   left: 12px;
 
   width: 17px;
@@ -837,9 +837,6 @@ input[type="radio"].visually-hidden {
   right: 12px;
 
   background-image: url("../img/background/icon-logout.svg");
-}
-.asd {
-  /*сделать рабочим*/
 }
 .catalog-username:active {
   opacity: 0.5;
@@ -1459,6 +1456,8 @@ input[type="radio"].visually-hidden {
   background-color: #ffffff;
 
   border-radius: 50%;
+
+  border: none;
 }
 .button-right-small {
   position: absolute;
@@ -1473,6 +1472,8 @@ input[type="radio"].visually-hidden {
   background-color: #ffffff;
 
   border-radius: 50%;
+
+  border: none;
 }
 .imitation-li-big::after {
   content: "";
