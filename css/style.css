@@ -7,7 +7,7 @@ body {
   line-height: 18px;
   color: #000000;
 }
-.filter-button {}
+.about-perforators p {}
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
@@ -644,6 +644,8 @@ input[type="radio"].visually-hidden {
 }
 .cart-item li {
   list-style: none;
+
+  margin-top: 10px;
 }
 .cart-item img {
   background-color: #ffffff;
@@ -1078,22 +1080,21 @@ input[type="radio"].visually-hidden {
   display: flex;
 
   padding: 0;
-  margin-left: 20px;
 }
 .filter-navigation-crumbs li:nth-child(1) {
   margin-left: 19px;
 }
 .filter-navigation-crumbs li:nth-child(2) {
-  margin-left: 100px;
+  margin-left: 125px;
 }
 .filter-navigation-crumbs li:nth-child(3) {
-  margin-left: 71px;
+  margin-left: 62px;
 }
 .filter-navigation-crumbs li:nth-child(4) {
   margin-left: 65px;
 }
 .filter-navigation-crumbs li:nth-child(5) {
-  margin-left: 46px;
+  margin-left: 51px;
 }
 .filter-navigation-crumbs li:nth-child(6) {
   margin-left: 21px;
@@ -1147,7 +1148,7 @@ input[type="radio"].visually-hidden {
 .page-navigation-crumbs {
   width: 285px;
   
-  margin: 52px 0 0 228px;
+  margin: 59px 0 0 228px;
 }
 .page-navigation-list {
   display: flex;
@@ -1179,7 +1180,7 @@ input[type="radio"].visually-hidden {
 
   margin-top: 60px;
 
-  padding: 60px 0;
+  padding: 66px 0 54px 0;
 }
 .about-perforators-container {
   width: 940px;
@@ -2183,6 +2184,8 @@ input[type="radio"].visually-hidden {
   font-size: 13px;
   line-height: 24px;
   color: #000000;
+
+  margin-top: 27px;
 }
 .modal-item-basket b {
   font-family: "Cuprum", "Arial", sans-serif;
@@ -2412,6 +2415,7 @@ input[type="radio"].visually-hidden {
   text-align: center;
 
   margin-bottom: 0; 
+  margin-top: 3px;
 }
 .catalog-item-cart-buy {
   background-color: #ee3643;
@@ -2422,6 +2426,8 @@ input[type="radio"].visually-hidden {
   border-radius: 5px;
 
   position: relative;
+
+  margin-top: 5px;
 }
 .catalog-item-cart-buy::after {
   content: "";
@@ -2437,9 +2443,9 @@ input[type="radio"].visually-hidden {
 .catalog-item-cart-not {
   background-color: #ee3643;
 
-  margin-top: 52px;
-  margin-bottom: 21px;
-  padding: 13px 40px 13px 36px;
+  margin-top: 38px;
+  margin-bottom: 18px;
+  padding: 10px 40px 10px 36px;
 
   border-radius: 5px;
 
@@ -2450,10 +2456,10 @@ input[type="radio"].visually-hidden {
 
   position: absolute;
 
-  right: -33px;
+  right: -28px;
   bottom: 0;
 
-  border: 22px solid #ffffff;
+  border: 19px solid #ffffff;
   border-left-color: #ee3643;
 }
 .catalog-cart-item li:nth-child(n+4) {
@@ -2499,7 +2505,7 @@ input[type="radio"].visually-hidden {
   background-image: url("../img/decorative/new.png"); 
 }
 .page-navigation-list li {
-  padding: 15px 17px;
+  padding: 9px 16px;
 
   border-radius: 5px;
 }
