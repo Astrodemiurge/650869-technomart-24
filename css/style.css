@@ -7,7 +7,7 @@ body {
   line-height: 18px;
   color: #000000;
 }
-.about-company-box {}
+.main-box-sorting {}
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
@@ -233,7 +233,7 @@ input[type="radio"].visually-hidden {
   display: flex;
   flex-direction: column;
 
-  margin: 46px 0 0 50px;
+  margin: 43px 0 0 46px;
 }
 .main-navigation-catalog {
   margin-left: -40px;
@@ -374,7 +374,7 @@ input[type="radio"].visually-hidden {
   position: relative;
 }
 .catalog-username {
-  padding: 14px 69px 14px 47px;
+  padding: 10px 69px 10px 47px;
 }
 .catalog-personal-link {
   display: flex;
@@ -383,8 +383,8 @@ input[type="radio"].visually-hidden {
 
   width: 210px;
 
-  margin-top: 24px;
-  margin-left: 17px;
+  margin-top: 18px;
+  margin-left: 19px;
 
   position: relative;
 }
@@ -1030,7 +1030,7 @@ input[type="radio"].visually-hidden {
   padding: 0;
   margin: 0;
 
-  margin-top: 25px;
+  margin-top: 21px;
 }
 .catalog-navigation-crumbs li {
   margin: 0;
@@ -1040,34 +1040,39 @@ input[type="radio"].visually-hidden {
   padding-left: 55px;
 }
 .catalog-navigation-crumbs li:nth-child(2) {
-  padding-left: 39px;
+  padding-left: 34px;
 }
 .catalog-navigation-crumbs li:nth-child(3) {
-  padding-left: 43px;
+  padding-left: 32px;
 }
 .main-box-perforator {
   width: 940px;
 
-  margin-top: 25px;
+  margin-top: 20px;
 
   padding: 1px 0;
 }
 .main-box-perforator h2 {
-  margin-top: 32px;
+  margin-top: 29px;
   margin-left: 30px; 
+
+  padding-bottom: 3px;
 }
 .main-box-sorting {
   display: flex;
 
   width: 940px;
 
-  margin-top: 20px;
+  margin-top: 16px;
 }
 .filter-paragraph {
   width: 220px;
 }
 .filter-paragraph p { 
   margin-left: 18px;
+  margin-top: 11px;
+
+  padding-top: 6px;
 }
 .filter-navigation-crumbs {
   display: flex;
@@ -2073,6 +2078,8 @@ input[type="radio"].visually-hidden {
 }
 .filter-navigation-crumbs li {
   list-style: none;
+
+  padding-top: 4px;
 }
 .filter-paragraph p {
   font-family: "PTSans", "Arial", sans-serif;
@@ -2231,7 +2238,7 @@ input[type="radio"].visually-hidden {
   position: absolute;
 
   top: 2px;
-  left: 29px;
+  left: 28px;
   
   background-image: url("../img/background/icon-right-small.svg");
 }
@@ -2257,7 +2264,7 @@ input[type="radio"].visually-hidden {
   position: absolute;
 
   top: 2px;
-  left: 270px;
+  left: 243px;
   
   background-image: url("../img/background/icon-right-small.svg");
 }
@@ -2285,7 +2292,7 @@ input[type="radio"].visually-hidden {
 
   position: absolute;
 
-  top: 3px;
+  top: 7px;
   left: -15px;
 
   background-image: url("../img/background/icon-up-dir.svg"); 
@@ -2298,7 +2305,7 @@ input[type="radio"].visually-hidden {
 
   position: absolute;
 
-  top: 3px;
+  top: 7px;
   left: -5px;
 
   background-image: url("../img/background/icon-down-dir.svg"); 
