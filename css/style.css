@@ -6,8 +6,6 @@ body {
 	line-height: 18px;
 	color: #000000;
 }
-.imitation-li-big-second {
-}
 .visually-hidden:not(:focus):not(:active),input[type="checkbox"].visually-hidden,input[type="radio"].visually-hidden {
 	position: absolute;
 	width: 1px;
@@ -865,7 +863,7 @@ body {
 	justify-content: space-between;
 	position: relative;
 	margin: 0;
-	margin-top: 24px;
+	margin-top: 14px;
 	padding: 0;
 }
 .popular-item-column li {
@@ -2823,3 +2821,21 @@ body {
 	margin-top: 15%;
 }
 /*-------------------------------*/
+@-moz-document url-prefix() {
+  .social-button-vk::after { 
+    bottom: -25px;
+    top: 25px;
+  }
+}
+@-moz-document url-prefix() {
+  .social-button-fb::after { 
+    bottom: -22px;
+    top: 22px;
+  }
+}
+@-moz-document url-prefix() {
+  .social-button-insta::after { 
+    bottom: -22px;
+    top: 22px;
+  }
+}
