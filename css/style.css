@@ -7,7 +7,6 @@ body {
   line-height: 18px;
   color: #000000;
 }
-.main-box-sorting {}
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
