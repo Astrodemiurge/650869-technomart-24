@@ -7,6 +7,7 @@ body {
   line-height: 18px;
   color: #000000;
 }
+.main-footer-box-bottom {}
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
@@ -661,6 +662,8 @@ input[type="radio"].visually-hidden {
   line-height: 18px;
   color: #a9a9a9;
   text-decoration: line-through;
+
+  margin-bottom: 5px;
 }
 .cart-item-link {
   font-family: "Cuprum", "Arial", sans-serif;
@@ -683,7 +686,7 @@ input[type="radio"].visually-hidden {
   text-transform: uppercase;
 }
 .popular-brand {
-  margin-top: 21px;
+  margin-top: 28px;
 }
 .popular-brand li {
   list-style: none;
@@ -913,7 +916,7 @@ input[type="radio"].visually-hidden {
   position: relative;
 
   margin: 0;
-  margin-top: 21px;
+  margin-top: 24px;
   padding: 0;
 }
 .popular-item-column li {
@@ -947,7 +950,7 @@ input[type="radio"].visually-hidden {
 .service {
   width: 100%;
 
-  margin-top: 85px;
+  margin-top: 82px;
   padding-bottom: 100px;
 }
 .service-box {
@@ -962,7 +965,7 @@ input[type="radio"].visually-hidden {
 .service-box-top {
   width: 430px;
 
-  margin-top: 68px;
+  margin-top: 34px;
 }
 .service-box-bottom {
   display: flex;
@@ -973,15 +976,15 @@ input[type="radio"].visually-hidden {
   margin: 0;
   padding: 0;
 
-  margin-top: 74px;
+  margin-top: 53px;
 
   width: 240px;
 }
 .service-column-right {
   width: 295px;
 
-  margin-top: 74px;
-  margin-left: 80px;
+  margin-top: 53px;
+  margin-left: 81px;
 }
 .service-column-right h3 {
   margin: 0;
@@ -998,17 +1001,17 @@ input[type="radio"].visually-hidden {
   width: 940px;
 
   margin: 0 auto;
-  padding-bottom: 100px;
+  padding-bottom: 95px;
 }
 .about-company {
   width: 545px;
 
-  margin-top: 82px;
+  margin-top: 53px;
 }
 .contacts {
   width: 300px;
   
-  margin-top: 82px;
+  margin-top: 53px;
   margin-left: 94px;
 }
 /*---------------------------*/
@@ -1537,7 +1540,7 @@ input[type="radio"].visually-hidden {
   width: 155px;
   text-align: center;
 
-  margin-bottom: 0; 
+  margin: 0; 
 }
 .popular-item-cart-buy {
   background-color: #ee3643;
@@ -1563,10 +1566,13 @@ input[type="radio"].visually-hidden {
 .popular-item-cart-not {
   margin-top: 52px;
 }
+.popular-brand-box-header h2 {
+  padding-top: 7px;
+}
 .popular-brand-box-header a {
-  padding: 13px 70px 13px 70px;
+  padding: 10px 70px 10px 70px;
 
-  margin-left: 269px;
+  margin-left: 207px;
 
   border-radius: 5px;
 }
@@ -1588,7 +1594,7 @@ input[type="radio"].visually-hidden {
   height: 279px;
 
   position: absolute;
-  top: -35px;
+  top: -40px;
   right: 0;
 
   background-image: url("../img/decorative/shadow.png");
@@ -1596,7 +1602,7 @@ input[type="radio"].visually-hidden {
 .service-navigation li {
   background-color: #32425c;
 
-  padding: 20px 0 20px 23px;
+  padding: 15px 0 15px 16px;
 }
 .service-navigation li:nth-child(3) {
   box-shadow: 0 -1px 0 0 #293449;
@@ -1605,7 +1611,7 @@ input[type="radio"].visually-hidden {
   position: relative;
 }
 .service-column-right p {
-  margin-top: 35px;
+  margin-top: 30px;
 }
 .service-column-right::before {
   content: "";
@@ -1624,10 +1630,10 @@ input[type="radio"].visually-hidden {
   padding: 0;
 }
 .about-company p:nth-child(3) {
-  margin-top: 36px;
+  margin-top: 25px;
 }
 .about-company-delivery {
-  margin: 26px 0 36px 0;
+  margin: 12px 0 36px 0;
   padding: 0;
 }
 .about-company-delivery li {
@@ -1642,7 +1648,7 @@ input[type="radio"].visually-hidden {
   position: absolute;
   display: block;
 
-  top: 20px;
+  top: 18px;
   left: -35px;
 
   width: 25px;
@@ -1652,20 +1658,20 @@ input[type="radio"].visually-hidden {
   background-color: #ee3643;
 }
 .about-company a {
-  padding: 13px 40px 13px 40px;
+  padding: 10px 40px 10px 40px;
 
   border-radius: 5px;
 }
 .contacts p {
-  margin-bottom: 38px;
+  margin-bottom: 33px;
 }
 .contacts a:nth-child(3) {
   display: block;
 
-  margin-bottom: 62px;
+  margin-bottom: 45px;
 }
 .contacts a:nth-child(4) {
-  padding: 13px 61px 13px 61px;
+  padding: 10px 61px 10px 61px;
 
   border-radius: 5px;
 }
@@ -2407,8 +2413,8 @@ input[type="radio"].visually-hidden {
 .catalog-item-cart-buy {
   background-color: #ee3643;
 
-  margin-bottom: 21px;
-  padding: 13px 40px 13px 36px;
+  margin: 0;
+  padding: 10px 40px 10px 36px;
 
   border-radius: 5px;
 
@@ -2419,10 +2425,10 @@ input[type="radio"].visually-hidden {
 
   position: absolute;
 
-  right: -33px;
+  right: -27px;
   bottom: 0;
 
-  border: 22px solid #ffffff;
+  border: 19px solid #ffffff;
   border-left-color: #ee3643;
 }
 .catalog-item-cart-not {
@@ -2684,7 +2690,7 @@ input[type="radio"].visually-hidden {
 
   width: 227px;
 
-  margin-top: 40px;
+  margin-top: 37px;
 }
 .social-button li {
   list-style: none;
@@ -2711,7 +2717,7 @@ input[type="radio"].visually-hidden {
   margin-top: 0;
 }
 .footer-logo-link {
-  width: 228px;
+  width: 220px;
   
   display: block;
 
@@ -2722,6 +2728,8 @@ input[type="radio"].visually-hidden {
 }
 .main-footer-box-top {
   width: 100%;
+
+  padding-bottom: 32px;
 }
 .main-footer-container-top {
   display: flex;
@@ -2743,18 +2751,21 @@ input[type="radio"].visually-hidden {
   display: flex;
 
   margin-top: 0;
-  margin-left: 11px;
+  margin-left: 13px;
 }
 .sub-navigation-top li {
-  margin-top: 46px;
+  margin-top: 25px;
 }
 .sub-navigation-bottom {
   display: flex;
 
-  margin-left: 36px;
+  margin-left: 38px;
+  margin-top: 20px;
 }
 .main-footer-box-bottom {
   width: 100%;
+
+  padding-bottom: 10px;
 }
 .main-footer-container-bottom {
   display: flex;
@@ -2767,8 +2778,8 @@ input[type="radio"].visually-hidden {
   display: flex;
   justify-content: space-between;
 
-  margin-top: 40px;
-  margin-left: 130px;
+  margin-top: 37px;
+  margin-left: 123px;
 }
 .social-button li {
   width: 42px;
@@ -2790,8 +2801,8 @@ input[type="radio"].visually-hidden {
 
   width: 135px;
 
-  margin-top: 40px;
-  margin-left: 119px;
+  margin-top: 37px;
+  margin-left: 117px;
 }
 .main-footer-feedback-right {
   display: flex;
@@ -2799,7 +2810,7 @@ input[type="radio"].visually-hidden {
 
   width: 96px;
 
-  margin-top: 40px;
+  margin-top: 37px;
   margin-left: 53px;
 }
 /*------------*/
@@ -2809,7 +2820,7 @@ input[type="radio"].visually-hidden {
   justify-content: center;
   align-items: center;
 
-  padding: 20px 41px 20px 41px;
+  padding: 20px 0;
 
   background-color: #ee3643;
 
@@ -2826,8 +2837,8 @@ input[type="radio"].visually-hidden {
 
   position: absolute;
 
-  top: 14px;
-  left: 7px;
+  top: 13px;
+  left: 8px;
 
   background-image: url("../img/background/icon-vk.svg");
 }
@@ -2840,7 +2851,7 @@ input[type="radio"].visually-hidden {
   position: absolute;
 
   top: 10px;
-  left: 15px;
+  left: 14px;
 
   background-image: url("../img/background/icon-fb.svg");
 }
@@ -2852,7 +2863,7 @@ input[type="radio"].visually-hidden {
 
   position: absolute;
 
-  top: 11px;
+  top: 10px;
   left: 11px;
 
   background-image: url("../img/background/icon-insta.svg");
