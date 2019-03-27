@@ -7,7 +7,7 @@ body {
   line-height: 18px;
   color: #000000;
 }
-.main-footer-box-bottom {}
+.about-company-box {}
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
@@ -662,7 +662,8 @@ input[type="radio"].visually-hidden {
   line-height: 18px;
   color: #a9a9a9;
   text-decoration: line-through;
-
+  
+  margin-top: 10px; 
   margin-bottom: 5px;
 }
 .cart-item-link {
@@ -686,7 +687,7 @@ input[type="radio"].visually-hidden {
   text-transform: uppercase;
 }
 .popular-brand {
-  margin-top: 28px;
+  margin-top: 20px;
 }
 .popular-brand li {
   list-style: none;
@@ -1001,7 +1002,7 @@ input[type="radio"].visually-hidden {
   width: 940px;
 
   margin: 0 auto;
-  padding-bottom: 95px;
+  padding-bottom: 94px;
 }
 .about-company {
   width: 545px;
@@ -1540,12 +1541,12 @@ input[type="radio"].visually-hidden {
   width: 155px;
   text-align: center;
 
-  margin: 0; 
+  margin: 0;
+  padding-top: 7px; 
 }
 .popular-item-cart-buy {
   background-color: #ee3643;
 
-  margin-bottom: 21px;
   padding: 13px 40px 13px 36px;
 
   border-radius: 5px;
@@ -1564,7 +1565,8 @@ input[type="radio"].visually-hidden {
   border-left-color: #ee3643;
 }
 .popular-item-cart-not {
-  margin-top: 52px;
+  margin-top: 34px;
+  margin-bottom: 19px;
 }
 .popular-brand-box-header h2 {
   padding-top: 7px;
@@ -2754,7 +2756,7 @@ input[type="radio"].visually-hidden {
   margin-left: 13px;
 }
 .sub-navigation-top li {
-  margin-top: 25px;
+  margin-top: 37px;
 }
 .sub-navigation-bottom {
   display: flex;
